@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FuGrade Web
 
-## Getting Started
+Ứng dụng Next.js quản lý và chỉnh sửa bảng điểm FuGrade, sử dụng SQLite cục bộ.
 
-First, run the development server:
+## Yêu cầu
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Node.js 22.22.3 trở lên. Phiên bản 22.11.0 trên Windows đã được xác nhận gây crash `better-sqlite3` khi mở database.
+- npm đi kèm Node.js.
+
+Nếu dùng NVM for Windows:
+
+```powershell
+nvm install 22.22.3
+nvm use 22.22.3
+node --version
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Cài đặt
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```powershell
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Tạo `.env.local` với các biến sau:
 
-## Learn More
+```dotenv
+AUTH_SECRET=thay-bang-chuoi-bi-mat-ngau-nhien
+NEXTAUTH_URL=http://localhost:3000
+# Tùy chọn: bật nút đăng nhập Google
+AUTH_GOOGLE_ID=google-oauth-client-id
+AUTH_GOOGLE_SECRET=google-oauth-client-secret
+```
 
-To learn more about Next.js, take a look at the following resources:
+Để bật Google OAuth, tạo OAuth Client loại **Web application** trong Google Cloud và thêm callback URL `http://localhost:3000/api/auth/callback/google`. Nếu chưa cấu hình hai biến Google, nút Google sẽ hiển thị ở trạng thái chưa khả dụng.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Chạy development
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```powershell
+npm run dev
+```
 
-## Deploy on Vercel
+Mở <http://localhost:3000>. Ở lần chạy đầu, truy cập <http://localhost:3000/api/seed> để tạo tài khoản local mặc định:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```text
+Username: admin
+Password: admin123
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Endpoint seed chỉ hoạt động trong development. Hãy đổi thông tin đăng nhập trước khi dùng ứng dụng với dữ liệu thật.
+
+Trang `/signup` cho phép tạo tài khoản bằng email. Đăng nhập bằng mật khẩu yêu cầu CAPTCHA 5 ký tự được xác minh ở server; CAPTCHA hết hạn sau 5 phút và chỉ dùng được một lần.
+
+## Kiểm tra chất lượng và build
+
+```powershell
+npm run lint
+npm run build
+npm run start
+```
+
+Database được lưu tại `fugrade.db` trong thư mục project. Các file SQLite cục bộ đã được loại khỏi Git.
+
+## Cách dùng workspace
+
+- Trang Home, mở file `.fg`, sửa điểm/nhận xét, thêm sinh viên/thành phần, import dữ liệu và xuất file đều dùng được khi chưa đăng nhập.
+- Bản đang sửa được giữ trong `sessionStorage` của tab hiện tại. Đăng nhập chỉ được yêu cầu khi bấm **Lưu** để tạo một snapshot mới trong SQLite.
+- **Xuất .fg** luôn yêu cầu nhập và xác nhận mật khẩu. File tải xuống có thể mở lại bằng FuGrade desktop hoặc workspace web bằng đúng mật khẩu đó.
+
+## Tương thích file FuGrade desktop
+
+Định dạng `.fg` tương thích ứng dụng cũ dùng AES-256-CBC với khóa/IV legacy và lưu MD5 của mật khẩu trong payload. Cơ chế này chỉ nhằm trao đổi file với FuGrade desktop; không nên xem đây là mã hóa hiện đại cho dữ liệu nhạy cảm hoặc dùng thay cho cơ chế đăng nhập của hệ thống web.
