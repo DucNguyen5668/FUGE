@@ -1,0 +1,583 @@
+{"kind":"deck","id":"pr/ohpq8k","name":"Deck"}
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"","type":"master"}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"DEFAULT"}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout2.xml","name":"Slide master 1"}
+{"kind":"slide","id":"sl/y90nupkv","slide":1,"title":"Spec-Driven Development: Từ Lý Thuyết Đến Thực Tế","textShapes":2}
+{"kind":"shape","id":"sh/547294r6","slide":1,"name":"Shape 0","bbox":[799.98,0,479.99,720]}
+{"kind":"textbox","id":"sh/7qp4be9c","slide":1,"textChars":49,"textLines":1}
+{"kind":"textbox","id":"sh/65g3298r","slide":1,"textChars":84,"textLines":1}
+{"kind":"image","id":"im/cj21o7ed","slide":1,"name":"Image 0","bbox":[809.9,53.22,460.14,613.55]}
+{"kind":"notes","id":"nt/y90nupkv","slide":1,"text":""}
+{"kind":"slide","id":"sl/hwbqtkby","slide":2,"title":"Vấn Đề Cốt Lõi","textShapes":7}
+{"kind":"shape","id":"sh/9072xkry","slide":2,"name":"Shape 0","bbox":[0,0,479.99,720]}
+{"kind":"textbox","id":"sh/b29kza94","slide":2,"textChars":14,"textLines":1}
+{"kind":"textbox","id":"sh/x4r21kru","slide":2,"textChars":42,"textLines":1}
+{"kind":"textbox","id":"sh/w3i1sfa9","slide":2,"textChars":83,"textLines":1}
+{"kind":"textbox","id":"sh/q5wjelsz","slide":2,"textChars":39,"textLines":1}
+{"kind":"textbox","id":"sh/ove9o7yd","slide":2,"textChars":68,"textLines":1}
+{"kind":"textbox","id":"sh/mtwrmxg7","slide":2,"textChars":36,"textLines":1}
+{"kind":"textbox","id":"sh/nu58f2hs","slide":2,"textChars":60,"textLines":1}
+{"kind":"image","id":"im/vu5wza18","slide":2,"name":"Image 0","bbox":[9.92,53.22,460.14,613.55]}
+{"kind":"image","id":"im/atwv650n","slide":2,"name":"Image 1","bbox":[549.43,174.77,661.09,151.43]}
+{"kind":"image","id":"im/xwne10je","slide":2,"name":"Image 2","bbox":[549.43,346.04,661.09,151.43]}
+{"kind":"image","id":"im/wved8fit","slide":2,"name":"Image 3","bbox":[549.43,517.31,661.09,119.68]}
+{"kind":"notes","id":"nt/hwbqtkby","slide":2,"text":""}
+{"kind":"slide","id":"sl/ofy9wn61","slide":3,"title":"SDD Là Gì?","textShapes":9}
+{"kind":"textbox","id":"sh/d0jax03i","slide":3,"textChars":10,"textLines":1}
+{"kind":"textbox","id":"sh/298ryl4v","slide":3,"textChars":69,"textLines":1}
+{"kind":"shape","id":"sh/3ah8rqlg","slide":3,"name":"Shape 2","bbox":[482.99,181.94,728.19,53.29]}
+{"kind":"textbox","id":"sh/pcjqtg36","slide":3,"textChars":90,"textLines":1}
+{"kind":"textbox","id":"sh/m5cra54z","slide":3,"textChars":16,"textLines":1}
+{"kind":"textbox","id":"sh/n2l4fq98","slide":3,"textChars":7,"textLines":1}
+{"kind":"textbox","id":"sh/943mhgre","slide":3,"textChars":4,"textLines":1}
+{"kind":"textbox","id":"sh/v6l4jq94","slide":3,"textChars":4,"textLines":1}
+{"kind":"textbox","id":"sh/x8nml0ra","slide":3,"textChars":5,"textLines":1}
+{"kind":"textbox","id":"sh/ja54na9g","slide":3,"textChars":9,"textLines":1}
+{"kind":"image","id":"im/tk36hgva","slide":3,"name":"Image 0","bbox":[69.45,172.84,374.29,374.3]}
+{"kind":"image","id":"im/p4bu58jm","slide":3,"name":"Image 1","bbox":[498.8,201.3,19.76,15.81]}
+{"kind":"image","id":"im/o32dw321","slide":3,"name":"Image 2","bbox":[482.99,286.29,364.1,63.25]}
+{"kind":"image","id":"im/n2tc3y1g","slide":3,"name":"Image 3","bbox":[847.08,286.29,364.1,63.25]}
+{"kind":"image","id":"im/21kvutkb","slide":3,"name":"Image 4","bbox":[482.99,402.66,364.1,63.25]}
+{"kind":"image","id":"im/10bu183q","slide":3,"name":"Image 5","bbox":[847.08,402.66,364.1,63.25]}
+{"kind":"image","id":"im/0z2ds325","slide":3,"name":"Image 6","bbox":[482.99,519.02,364.1,63.25]}
+{"kind":"notes","id":"nt/ofy9wn61","slide":3,"text":""}
+{"kind":"slide","id":"sl/jyx0ra1s","slide":4,"title":"8 Thành Phần Spec Bắt Buộc","textShapes":17}
+{"kind":"textbox","id":"sh/1cj2d8b6","slide":4,"textChars":26,"textLines":1}
+{"kind":"shape","id":"sh/0ba143al","slide":4,"name":"Shape 1","bbox":[69.45,121.76,565.63,127.57]}
+{"kind":"shape","id":"sh/rm1k7yt4","slide":4,"name":"Shape 2","bbox":[84.06,136.38,41.85,41.85]}
+{"kind":"textbox","id":"sh/doj29oba","slide":4,"textChars":14,"textLines":1}
+{"kind":"textbox","id":"sh/sna103ap","slide":4,"textChars":24,"textLines":1}
+{"kind":"shape","id":"sh/3ihk3et8","slide":4,"name":"Shape 5","bbox":[644.88,121.76,565.64,127.57]}
+{"kind":"shape","id":"sh/ih8ju9sn","slide":4,"name":"Shape 6","bbox":[659.49,136.38,41.85,41.85]}
+{"kind":"textbox","id":"sh/5cva1cfq","slide":4,"textChars":14,"textLines":1}
+{"kind":"textbox","id":"sh/i94r6xgz","slide":4,"textChars":27,"textLines":1}
+{"kind":"shape","id":"sh/jadsz2xk","slide":4,"name":"Shape 9","bbox":[69.45,259.14,565.63,127.57]}
+{"kind":"shape","id":"sh/w72947yt","slide":4,"name":"Shape 10","bbox":[84.06,273.75,41.85,41.85]}
+{"kind":"textbox","id":"sh/a5kr2xg3","slide":4,"textChars":23,"textLines":1}
+{"kind":"textbox","id":"sh/v6tsv2xo","slide":4,"textChars":16,"textLines":1}
+{"kind":"shape","id":"sh/g36tgryd","slide":4,"name":"Shape 13","bbox":[644.88,259.14,565.64,127.57]}
+{"kind":"shape","id":"sh/h4fa9wfy","slide":4,"name":"Shape 14","bbox":[659.49,273.75,41.85,41.85]}
+{"kind":"textbox","id":"sh/oz29krqh","slide":4,"textChars":27,"textLines":1}
+{"kind":"textbox","id":"sh/3ytsrmpw","slide":4,"textChars":16,"textLines":1}
+{"kind":"shape","id":"sh/2xkrih8b","slide":4,"name":"Shape 17","bbox":[69.45,396.51,565.63,127.57]}
+{"kind":"shape","id":"sh/1wbapc7q","slide":4,"name":"Shape 18","bbox":[84.06,411.13,41.85,41.85]}
+{"kind":"textbox","id":"sh/fu9sn2p0","slide":4,"textChars":10,"textLines":1}
+{"kind":"textbox","id":"sh/et0reh8f","slide":4,"textChars":24,"textLines":1}
+{"kind":"shape","id":"sh/tsrqlc7u","slide":4,"name":"Shape 21","bbox":[644.88,396.51,565.64,127.57]}
+{"kind":"shape","id":"sh/sri9s7q9","slide":4,"name":"Shape 22","bbox":[659.49,411.13,41.85,41.85]}
+{"kind":"textbox","id":"sh/jm5gze1g","slide":4,"textChars":14,"textLines":1}
+{"kind":"textbox","id":"sh/knex8j21","slide":4,"textChars":18,"textLines":1}
+{"kind":"shape","id":"sh/5ony1oj6","slide":4,"name":"Shape 25","bbox":[69.45,533.89,565.63,127.57]}
+{"kind":"shape","id":"sh/axcf29kj","slide":4,"name":"Shape 26","bbox":[84.06,548.5,41.85,41.85]}
+{"kind":"textbox","id":"sh/wzex4z2p","slide":4,"textChars":19,"textLines":1}
+{"kind":"textbox","id":"sh/xknyx4ja","slide":4,"textChars":18,"textLines":1}
+{"kind":"shape","id":"sh/mtcfypkn","slide":4,"name":"Shape 29","bbox":[644.88,533.89,565.64,127.57]}
+{"kind":"shape","id":"sh/nulw7u18","slide":4,"name":"Shape 30","bbox":[659.49,548.5,41.85,41.85]}
+{"kind":"textbox","id":"sh/elwba54j","slide":4,"textChars":12,"textLines":1}
+{"kind":"textbox","id":"sh/18nu50nu","slide":4,"textChars":13,"textLines":1}
+{"kind":"image","id":"im/zqtwj65o","slide":4,"name":"Image 0","bbox":[95.57,147.89,18.83,18.83]}
+{"kind":"image","id":"im/cnid8b6x","slide":4,"name":"Image 1","bbox":[671,147.89,18.83,18.83]}
+{"kind":"image","id":"im/dorehgni","slide":4,"name":"Image 2","bbox":[95.57,285.26,18.83,18.83]}
+{"kind":"image","id":"im/ql0v61or","slide":4,"name":"Image 3","bbox":[671,285.26,18.83,18.83]}
+{"kind":"image","id":"im/bm9wf65c","slide":4,"name":"Image 4","bbox":[95.57,422.64,18.83,18.83]}
+{"kind":"image","id":"im/ojid4r6l","slide":4,"name":"Image 5","bbox":[671,422.64,18.83,18.83]}
+{"kind":"image","id":"im/pkredwn6","slide":4,"name":"Image 6","bbox":[95.57,560.01,18.83,18.83]}
+{"kind":"image","id":"im/7upwnm98","slide":4,"name":"Image 7","bbox":[671,560.01,18.83,18.83]}
+{"kind":"notes","id":"nt/jyx0ra1s","slide":4,"text":""}
+{"kind":"slide","id":"sl/i107q5of","slide":5,"title":"EARS Notation: Ngôn Ngữ Không Mơ Hồ","textShapes":14}
+{"kind":"textbox","id":"sh/dgbulwnm","slide":5,"textChars":35,"textLines":1}
+{"kind":"textbox","id":"sh/cf2tcr61","slide":5,"textChars":76,"textLines":1}
+{"kind":"textbox","id":"sh/z2tcnm5s","slide":5,"textChars":14,"textLines":1}
+{"kind":"textbox","id":"sh/yhkbe1o7","slide":5,"textChars":129,"textLines":3}
+{"kind":"shape","id":"sh/l4bupwny","slide":5,"name":"Shape 4","bbox":[664.86,141.8,2.67,251.25]}
+{"kind":"textbox","id":"sh/032tgr6d","slide":5,"textChars":62,"textLines":1}
+{"kind":"shape","id":"sh/n6dcr65o","slide":5,"name":"Shape 6","bbox":[69.45,487.3,44.64,44.65]}
+{"kind":"textbox","id":"sh/m5kbi1oj","slide":5,"textChars":1,"textLines":1}
+{"kind":"textbox","id":"sh/w32dkbuh","slide":5,"textChars":15,"textLines":1}
+{"kind":"textbox","id":"sh/x4vedgvm","slide":5,"textChars":32,"textLines":1}
+{"kind":"shape","id":"sh/ahkvi1cb","slide":5,"name":"Shape 10","bbox":[458.07,487.3,44.64,44.65]}
+{"kind":"textbox","id":"sh/v2twb6dw","slide":5,"textChars":1,"textLines":1}
+{"kind":"textbox","id":"sh/k7mxovud","slide":5,"textChars":12,"textLines":1}
+{"kind":"textbox","id":"sh/58vehgvy","slide":5,"textChars":30,"textLines":1}
+{"kind":"shape","id":"sh/i54fmlc7","slide":5,"name":"Shape 14","bbox":[846.7,487.3,44.64,44.65]}
+{"kind":"textbox","id":"sh/j6dwfqds","slide":5,"textChars":1,"textLines":1}
+{"kind":"textbox","id":"sh/sb6xsvu9","slide":5,"textChars":14,"textLines":1}
+{"kind":"textbox","id":"sh/tcfel0vu","slide":5,"textChars":33,"textLines":1}
+{"kind":"notes","id":"nt/i107q5of","slide":5,"text":""}
+{"kind":"slide","id":"sl/x8f69ofe","slide":6,"title":"PHẦN 2","textShapes":3}
+{"kind":"shape","id":"sh/yhg7epsj","slide":6,"name":"Shape 0","bbox":[0,0,479.99,720]}
+{"kind":"shape","id":"sh/87ipkzal","slide":6,"name":"Shape 1","bbox":[549.43,232.31,79.8,30.15]}
+{"kind":"textbox","id":"sh/98rqt4r6","slide":6,"textChars":6,"textLines":1}
+{"kind":"textbox","id":"sh/ml07i9sv","slide":6,"textChars":35,"textLines":1}
+{"kind":"textbox","id":"sh/7m98ru9g","slide":6,"textChars":51,"textLines":1}
+{"kind":"image","id":"im/lwn2dc3m","slide":6,"name":"Image 0","bbox":[9.92,53.22,460.14,613.55]}
+{"kind":"notes","id":"nt/x8f69ofe","slide":6,"text":""}
+{"kind":"slide","id":"sl/gnmp4jqx","slide":7,"title":"KHÓ KHĂN #1","textShapes":5}
+{"kind":"shape","id":"sh/dcbud0ra","slide":7,"name":"Shape 0","bbox":[486.43,118.09,125.63,30.15]}
+{"kind":"textbox","id":"sh/ydkbm5sv","slide":7,"textChars":11,"textLines":1}
+{"kind":"textbox","id":"sh/zedcfa9g","slide":7,"textChars":35,"textLines":1}
+{"kind":"textbox","id":"sh/l0vuh0rm","slide":7,"textChars":41,"textLines":1}
+{"kind":"shape","id":"sh/eh0ba1sr","slide":7,"name":"Text 4","bbox":[550.91,384.36,285.48,63.5]}
+{"kind":"textbox","id":"sh/baxkjqlk","slide":7,"textChars":31,"textLines":1}
+{"kind":"textbox","id":"sh/cbq1sv25","slide":7,"textChars":33,"textLines":1}
+{"kind":"image","id":"im/k36xo3i5","slide":7,"name":"Image 0","bbox":[69.45,176.04,367.9,367.91]}
+{"kind":"image","id":"im/lozex8zq","slide":7,"name":"Image 1","bbox":[493.86,303.14,29.76,29.76]}
+{"kind":"image","id":"im/y1ofmd0z","slide":7,"name":"Image 2","bbox":[493.83,419.14,29.76,29.76]}
+{"kind":"image","id":"im/j2xwvyhk","slide":7,"name":"Image 3","bbox":[493.86,519.92,29.76,29.76]}
+{"kind":"notes","id":"nt/gnmp4jqx","slide":7,"text":""}
+{"kind":"slide","id":"sl/fu1gfa1s","slide":8,"title":"SPEC trước và sau khi sửa","textShapes":17}
+{"kind":"textbox","id":"sh/18byd4zy","slide":8,"textChars":25,"textLines":1}
+{"kind":"shape","id":"sh/g72x4zyd","slide":8,"name":"Shape 1","bbox":[58.73,137.51,564.99,508.23]}
+{"kind":"shape","id":"sh/ri9g7uhw","slide":8,"name":"Shape 2","bbox":[73.6,150.06,88.12,22.6]}
+{"kind":"textbox","id":"sh/6h0fypgb","slide":8,"textChars":10,"textLines":1}
+{"kind":"textbox","id":"sh/tkby9kzm","slide":8,"textChars":42,"textLines":1}
+{"kind":"textbox","id":"sh/sjix0zy1","slide":8,"textChars":38,"textLines":1}
+{"kind":"textbox","id":"sh/je9g3ahk","slide":8,"textChars":31,"textLines":1}
+{"kind":"textbox","id":"sh/id0fu50z","slide":8,"textChars":117,"textLines":1}
+{"kind":"textbox","id":"sh/o7ydoret","slide":8,"textChars":36,"textLines":1}
+{"kind":"textbox","id":"sh/98rehwve","slide":8,"textChars":131,"textLines":1}
+{"kind":"textbox","id":"sh/m5gvmhwn","slide":8,"textChars":28,"textLines":1}
+{"kind":"textbox","id":"sh/n6pwfmd8","slide":8,"textChars":159,"textLines":2}
+{"kind":"shape","id":"sh/0jydkreh","slide":8,"name":"Shape 12","bbox":[639.25,137.51,582.64,508.23]}
+{"kind":"shape","id":"sh/1k7edwv2","slide":8,"name":"Shape 13","bbox":[654.13,150.06,100.12,22.6]}
+{"kind":"textbox","id":"sh/ehgvihwr","slide":8,"textChars":12,"textLines":1}
+{"kind":"textbox","id":"sh/zipwbmdc","slide":8,"textChars":46,"textLines":1}
+{"kind":"textbox","id":"sh/kfixwbe1","slide":8,"textChars":52,"textLines":1}
+{"kind":"textbox","id":"sh/lgbepgvm","slide":8,"textChars":123,"textLines":1}
+{"kind":"textbox","id":"sh/tw7e9gnq","slide":8,"textChars":418,"textLines":6}
+{"kind":"textbox","id":"sh/svydgb65","slide":8,"textChars":15,"textLines":1}
+{"kind":"textbox","id":"sh/7u5w765k","slide":8,"textChars":121,"textLines":2}
+{"kind":"notes","id":"nt/fu1gfa1s","slide":8,"text":""}
+{"kind":"slide","id":"sl/udsvah03","slide":9,"title":"Security-First Thinking Thiếu","textShapes":13}
+{"kind":"textbox","id":"sh/mdonql4z","slide":9,"textChars":29,"textLines":1}
+{"kind":"shape","id":"sh/9gzml0nq","slide":9,"name":"Shape 3","bbox":[57.14,159.41,574.3,512.51]}
+{"kind":"textbox","id":"sh/ofq5svm5","slide":9,"textChars":18,"textLines":1}
+{"kind":"textbox","id":"sh/bih4na5w","slide":9,"textChars":276,"textLines":2}
+{"kind":"textbox","id":"sh/ah8nu54b","slide":9,"textChars":17,"textLines":1}
+{"kind":"shape","id":"sh/oza1gfyh","slide":9,"name":"Shape 7","bbox":[661.49,221.85,266.43,135.96]}
+{"kind":"textbox","id":"sh/p0ji9kf2","slide":9,"textChars":7,"textLines":1}
+{"kind":"textbox","id":"sh/2xsjepgb","slide":9,"textChars":35,"textLines":1}
+{"kind":"shape","id":"sh/3y107axw","slide":9,"name":"Shape 10","bbox":[944.75,221.85,266.44,135.96]}
+{"kind":"textbox","id":"sh/cnu1kzyd","slide":9,"textChars":7,"textLines":1}
+{"kind":"textbox","id":"sh/do3id4fy","slide":9,"textChars":35,"textLines":1}
+{"kind":"shape","id":"sh/qlcjipgn","slide":9,"name":"Shape 13","bbox":[661.49,374.64,549.69,108.82]}
+{"kind":"textbox","id":"sh/bml0buxs","slide":9,"textChars":7,"textLines":1}
+{"kind":"textbox","id":"sh/0ru1ozyp","slide":9,"textChars":39,"textLines":1}
+{"kind":"shape","id":"sh/lsn2h4fa","slide":9,"name":"Shape 16","bbox":[661.49,506.66,549.69,2]}
+{"kind":"textbox","id":"sh/98ji147e","slide":9,"textChars":10,"textLines":1}
+{"kind":"textbox","id":"sh/87a18zqt","slide":9,"textChars":160,"textLines":1}
+{"kind":"shape","id":"sh/hcji5o7a","slide":9,"name":"Shape 0","bbox":[62.29,48.43,125.63,30.15]}
+{"kind":"textbox","id":"sh/wba1cjqp","slide":9,"textChars":11,"textLines":1}
+{"kind":"notes","id":"nt/udsvah03","slide":9,"text":""}
+{"kind":"slide","id":"sl/m90b6t0r","slide":10,"title":"Spec Evidence:","textShapes":2}
+{"kind":"textbox","id":"sh/xc3mho32","slide":10,"textChars":14,"textLines":1}
+{"kind":"shape","id":"sh/cbu58j2h","slide":10,"name":"Shape 1","bbox":[69.45,75,1141.08,596.67]}
+{"kind":"textbox","id":"sh/zelojyl8","slide":10,"textChars":1116,"textLines":34}
+{"kind":"notes","id":"nt/m90b6t0r","slide":10,"text":""}
+{"kind":"slide","id":"sl/jetc3ut0","slide":11,"title":"Code Evidence","textShapes":9}
+{"kind":"textbox","id":"sh/xcryxg7y","slide":11,"textChars":13,"textLines":1}
+{"kind":"textbox","id":"sh/wbih4b6d","slide":11,"textChars":34,"textLines":1}
+{"kind":"shape","id":"sh/n69grmpw","slide":11,"name":"Shape 2","bbox":[69.45,167.31,552.34,196.96]}
+{"kind":"textbox","id":"sh/250zy18b","slide":11,"textChars":263,"textLines":7}
+{"kind":"textbox","id":"sh/98rytw72","slide":11,"textChars":78,"textLines":1}
+{"kind":"shape","id":"sh/o7ih0r6h","slide":11,"name":"Shape 5","bbox":[69.45,415.3,552.34,75.58]}
+{"kind":"textbox","id":"sh/61kzalof","slide":11,"textChars":83,"textLines":1}
+{"kind":"textbox","id":"sh/ofqtgnyt","slide":11,"textChars":31,"textLines":1}
+{"kind":"shape","id":"sh/9gza9sze","slide":11,"name":"Shape 8","bbox":[658.85,165.98,552.34,364.08]}
+{"kind":"textbox","id":"sh/mdobedg3","slide":11,"textChars":399,"textLines":14}
+{"kind":"textbox","id":"sh/nehs7iho","slide":11,"textChars":78,"textLines":1}
+{"kind":"shape","id":"sh/0b6tc3yx","slide":11,"name":"Shape 11","bbox":[658.85,581.09,552.34,74.92]}
+{"kind":"textbox","id":"sh/epobatgr","slide":11,"textChars":71,"textLines":1}
+{"kind":"shape","id":"sh/zaxs3yhc","slide":11,"name":"Text Box 16","bbox":[117.87,42.07,430.33,24.6]}
+{"kind":"image","id":"im/nipo3q14","slide":11,"name":"Image 0","bbox":[84.36,434.8,18.65,14.92]}
+{"kind":"image","id":"im/mxg7ulkj","slide":11,"name":"Image 1","bbox":[673.76,600.59,18.65,14.92]}
+{"kind":"notes","id":"nt/jetc3ut0","slide":11,"text":""}
+{"kind":"slide","id":"sl/8f2psfyx","slide":12,"title":"Chỉ Viết Happy Path","textShapes":13}
+{"kind":"textbox","id":"sh/q903ad4n","slide":12,"textChars":19,"textLines":1}
+{"kind":"shape","id":"sh/dcbm583y","slide":12,"name":"Shape 3","bbox":[56.95,168.72,574.36,496.18]}
+{"kind":"textbox","id":"sh/sb2lcnmd","slide":12,"textChars":18,"textLines":1}
+{"kind":"textbox","id":"sh/b6d4f2lc","slide":12,"textChars":308,"textLines":2}
+{"kind":"shape","id":"sh/a543mx4r","slide":12,"name":"Shape 6","bbox":[74.3,436.74,539.65,2]}
+{"kind":"textbox","id":"sh/wvupgz6t","slide":12,"textChars":17,"textLines":1}
+{"kind":"shape","id":"sh/xw3q94ne","slide":12,"name":"Shape 8","bbox":[74.3,509.27,539.65,136.09]}
+{"kind":"textbox","id":"sh/atc7epon","slide":12,"textChars":7,"textLines":1}
+{"kind":"textbox","id":"sh/bulo7u58","slide":12,"textChars":74,"textLines":1}
+{"kind":"textbox","id":"sh/orapcf6h","slide":12,"textChars":31,"textLines":1}
+{"kind":"textbox","id":"sh/9sj65kn2","slide":12,"textChars":97,"textLines":1}
+{"kind":"textbox","id":"sh/mps7a5or","slide":12,"textChars":69,"textLines":1}
+{"kind":"shape","id":"sh/nq1o3a5w","slide":12,"name":"Shape 14","bbox":[661.83,305.66,2,86.81]}
+{"kind":"textbox","id":"sh/0nap8f6l","slide":12,"textChars":192,"textLines":1}
+{"kind":"shape","id":"sh/1oj61kn6","slide":12,"name":"Shape 16","bbox":[661.83,519.21,549.36,2]}
+{"kind":"textbox","id":"sh/hkbm5wzu","slide":12,"textChars":15,"textLines":1}
+{"kind":"textbox","id":"sh/gj25cry9","slide":12,"textChars":113,"textLines":1}
+{"kind":"shape","id":"sh/tgrm1wzy","slide":12,"name":"Shape 0","bbox":[62.29,48.43,125.63,30.15]}
+{"kind":"textbox","id":"sh/sfi58ryd","slide":12,"textChars":20,"textLines":1}
+{"kind":"notes","id":"nt/8f2psfyx","slide":12,"text":""}
+{"kind":"slide","id":"sl/hgzapcr6","slide":13,"title":"Spec Evidence","textShapes":2}
+{"kind":"textbox","id":"sh/q50nydsj","slide":13,"textChars":13,"textLines":1}
+{"kind":"shape","id":"sh/bq9orito","slide":13,"name":"Shape 1","bbox":[69.45,192.66,1141.08,423.65]}
+{"kind":"textbox","id":"sh/o3i5w3ad","slide":13,"textChars":532,"textLines":13}
+{"kind":"notes","id":"nt/hgzapcr6","slide":13,"text":""}
+{"kind":"slide","id":"sl/6lsnupw7","slide":14,"title":"Code Evidence:  Bulk Import Không Transactional","textShapes":7}
+{"kind":"textbox","id":"sh/xc7eds76","slide":14,"textChars":47,"textLines":1}
+{"kind":"shape","id":"sh/wbydknq1","slide":14,"name":"Shape 1","bbox":[69.47,100.07,1141.07,401.2]}
+{"kind":"textbox","id":"sh/jepwf2pc","slide":14,"textChars":490,"textLines":17}
+{"kind":"textbox","id":"sh/idgvmx8r","slide":14,"textChars":26,"textLines":1}
+{"kind":"textbox","id":"sh/5grehs7i","slide":14,"textChars":133,"textLines":1}
+{"kind":"shape","id":"sh/kfidonqx","slide":14,"name":"Shape 5","bbox":[70.78,553.06,1.33,43.65]}
+{"kind":"textbox","id":"sh/zi5c3y98","slide":14,"textChars":121,"textLines":1}
+{"kind":"textbox","id":"sh/c3e1gjyd","slide":14,"textChars":23,"textLines":1}
+{"kind":"textbox","id":"sh/b2507exs","slide":14,"textChars":111,"textLines":1}
+{"kind":"notes","id":"nt/6lsnupw7","slide":14,"text":""}
+{"kind":"slide","id":"sl/vaxsvy10","slide":15,"title":"Checklist","textShapes":20}
+{"kind":"textbox","id":"sh/547mhg3m","slide":15,"textChars":9,"textLines":1}
+{"kind":"textbox","id":"sh/k3y5ov21","slide":15,"textChars":84,"textLines":1}
+{"kind":"shape","id":"sh/76p4jqls","slide":15,"name":"Shape 2","bbox":[56.95,220.76,574.36,414.75]}
+{"kind":"textbox","id":"sh/65gnqlk7","slide":15,"textChars":8,"textLines":1}
+{"kind":"textbox","id":"sh/t87ml0ji","slide":15,"textChars":43,"textLines":1}
+{"kind":"shape","id":"sh/s7y5sv2x","slide":15,"name":"Shape 5","bbox":[74.3,287.8,17.35,17.35]}
+{"kind":"textbox","id":"sh/na5476l8","slide":15,"textChars":49,"textLines":1}
+{"kind":"shape","id":"sh/m9c3e1kn","slide":15,"name":"Shape 7","bbox":[74.3,321.66,17.35,17.35]}
+{"kind":"textbox","id":"sh/wrm9kvep","slide":15,"textChars":50,"textLines":1}
+{"kind":"shape","id":"sh/hsvat0fa","slide":15,"name":"Shape 9","bbox":[74.3,355.51,17.35,17.35]}
+{"kind":"textbox","id":"sh/upkrilwj","slide":15,"textChars":38,"textLines":1}
+{"kind":"shape","id":"sh/vqdsrqx4","slide":15,"name":"Shape 11","bbox":[74.3,389.36,17.35,17.35]}
+{"kind":"shape","id":"sh/4vm9ovel","slide":15,"name":"Shape 12","bbox":[74.3,435.81,539.65,2]}
+{"kind":"textbox","id":"sh/5wvax0f6","slide":15,"textChars":26,"textLines":1}
+{"kind":"textbox","id":"sh/it4rm5wv","slide":15,"textChars":44,"textLines":1}
+{"kind":"shape","id":"sh/judsvqxg","slide":15,"name":"Shape 15","bbox":[74.3,511.36,17.35,17.35]}
+{"kind":"textbox","id":"sh/0z29cbyh","slide":15,"textChars":51,"textLines":1}
+{"kind":"shape","id":"sh/l0bqlgf2","slide":15,"name":"Shape 17","bbox":[74.3,545.22,17.35,17.35]}
+{"kind":"textbox","id":"sh/1kjyt83e","slide":15,"textChars":41,"textLines":1}
+{"kind":"shape","id":"sh/gjax03m9","slide":15,"name":"Shape 19","bbox":[74.3,579.07,17.35,17.35]}
+{"kind":"textbox","id":"sh/fi1grylo","slide":15,"textChars":14,"textLines":1}
+{"kind":"textbox","id":"sh/ehsfyt43","slide":15,"textChars":53,"textLines":1}
+{"kind":"shape","id":"sh/p8jyx83q","slide":15,"name":"Shape 22","bbox":[661.83,287.8,17.35,17.35]}
+{"kind":"textbox","id":"sh/o7ah4nm5","slide":15,"textChars":52,"textLines":1}
+{"kind":"shape","id":"sh/361gvilk","slide":15,"name":"Shape 24","bbox":[661.83,321.66,17.35,17.35]}
+{"kind":"textbox","id":"sh/25sf2d4z","slide":15,"textChars":40,"textLines":1}
+{"kind":"shape","id":"sh/dc3y1s3m","slide":15,"name":"Shape 26","bbox":[661.83,355.51,17.35,17.35]}
+{"kind":"shape","id":"sh/cbuh8nmh","slide":15,"name":"Shape 27","bbox":[661.83,401.96,549.36,2]}
+{"kind":"textbox","id":"sh/uh4v2pkj","slide":15,"textChars":23,"textLines":1}
+{"kind":"textbox","id":"sh/vixcvu14","slide":15,"textChars":42,"textLines":1}
+{"kind":"shape","id":"sh/wj6d4z2p","slide":15,"name":"Shape 30","bbox":[661.83,477.51,17.35,17.35]}
+{"kind":"textbox","id":"sh/hkfexkja","slide":15,"textChars":43,"textLines":1}
+{"kind":"shape","id":"sh/ilov6pkv","slide":15,"name":"Shape 32","bbox":[661.83,511.36,17.35,17.35]}
+{"kind":"textbox","id":"sh/jmxwzu1g","slide":15,"textChars":40,"textLines":1}
+{"kind":"shape","id":"sh/4n6d8z21","slide":15,"name":"Shape 34","bbox":[661.83,545.22,17.35,17.35]}
+{"kind":"textbox","id":"sh/5ofe14j6","slide":15,"textChars":67,"textLines":1}
+{"kind":"shape","id":"sh/6p8va9kr","slide":15,"name":"Shape 36","bbox":[661.83,579.07,17.35,17.35]}
+{"kind":"notes","id":"nt/vaxsvy10","slide":15,"text":""}
+{"kind":"slide","id":"sl/gny5sjyp","slide":16,"title":"KHÓ KHĂN #4","textShapes":8}
+{"kind":"shape","id":"sh/9kby1g7m","slide":16,"name":"Shape 0","bbox":[486.43,193.99,125.63,30.15]}
+{"kind":"textbox","id":"sh/ytkf2h8j","slide":16,"textChars":11,"textLines":1}
+{"kind":"textbox","id":"sh/zutgvm94","slide":16,"textChars":22,"textLines":1}
+{"kind":"textbox","id":"sh/lwbyxwra","slide":16,"textChars":6,"textLines":1}
+{"kind":"textbox","id":"sh/ip4zel83","slide":16,"textChars":90,"textLines":1}
+{"kind":"textbox","id":"sh/fm1gzq5o","slide":16,"textChars":7,"textLines":1}
+{"kind":"textbox","id":"sh/e1sf65o3","slide":16,"textChars":79,"textLines":1}
+{"kind":"textbox","id":"sh/gnax8v6t","slide":16,"textChars":13,"textLines":1}
+{"kind":"textbox","id":"sh/nqlg3a5k","slide":16,"textChars":89,"textLines":1}
+{"kind":"image","id":"im/5kra9kra","slide":16,"name":"Image 0","bbox":[69.45,176.04,367.9,367.91]}
+{"kind":"image","id":"im/ix0ry5sz","slide":16,"name":"Image 1","bbox":[483.76,313.74,227.71,214.93]}
+{"kind":"image","id":"im/jy9s7a9k","slide":16,"name":"Image 2","bbox":[733.61,313.74,227.71,214.93]}
+{"kind":"image","id":"im/4fmtcza9","slide":16,"name":"Image 3","bbox":[983.45,313.74,227.71,214.93]}
+{"kind":"notes","id":"nt/gny5sjyp","slide":16,"text":""}
+{"kind":"slide","id":"sl/14bup87q","slide":17,"title":"DEMO","textShapes":1}
+{"kind":"textbox","id":"sh/6lwvql4v","slide":17,"textChars":4,"textLines":1}
+{"kind":"notes","id":"nt/14bup87q","slide":17,"text":""}
+{"kind":"notice","message":"Truncated: omitted 0 lines. Increase maxChars or narrow target."}
+{
+  "slideCount": 17,
+  "masters": [
+    {
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "name": ""
+    }
+  ],
+  "layouts": [
+    {
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "name": "",
+      "placeholders": []
+    },
+    {
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "DEFAULT",
+      "placeholders": []
+    },
+    {
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "Slide master 1",
+      "placeholders": []
+    }
+  ]
+}
+
+--- SLIDE 1 ---
+{"shapeIndex":1,"id":"4","name":"Text 1","type":"shape","text":"Spec-Driven Development: Từ Lý Thuyết Đến Thực Tế","position":{"left":69.44619422572178,"top":251.35412073490815,"width":661.0876640419948,"height":124.02078740157481}}
+{"shapeIndex":2,"id":"5","name":"Text 2","type":"shape","text":"Chia sẻ kinh nghiệm thực tế — những khó khăn khi áp dụng SDD và cách vượt qua chúng.","position":{"left":69.44619422572178,"top":405.13543307086616,"width":661.0876640419948,"height":63.500052493438325}}
+
+--- SLIDE 2 ---
+{"shapeIndex":1,"id":"4","name":"Text 1","type":"shape","text":"Vấn Đề Cốt Lõi","position":{"left":549.4341207349081,"top":83,"width":661.0876640419948,"height":62.010393700787404}}
+{"shapeIndex":2,"id":"6","name":"Text 2","type":"shape","text":"AI viết được — nhưng chúng ta không nói rõ","position":{"left":582.6103937007874,"top":197.2812598425197,"width":605.401469816273,"height":31}}
+{"shapeIndex":3,"id":"7","name":"Text 3","type":"shape","text":"AI có thể viết code phức tạp, nhưng chúng ta không diễn đạt rõ ràng điều mình muốn.","position":{"left":582.6103937007874,"top":240.1875065616798,"width":605.401469816273,"height":63.500052493438325}}
+{"shapeIndex":4,"id":"9","name":"Text 4","type":"shape","text":"AI \"đoán\" — đôi khi đúng, nhiều khi sai","position":{"left":582.6103937007874,"top":368.552125984252,"width":605.401469816273,"height":31}}
+{"shapeIndex":5,"id":"10","name":"Text 5","type":"shape","text":"Kết quả luôn không nhất quán. Mỗi lần generate là một lần đánh cược.","position":{"left":582.6103937007874,"top":411.45837270341207,"width":605.401469816273,"height":63.500052493438325}}
+{"shapeIndex":6,"id":"12","name":"Text 6","type":"shape","text":"Spec truyền thống viết cho con người","position":{"left":582.6103937007874,"top":539.8228871391076,"width":605.401469816273,"height":31}}
+{"shapeIndex":7,"id":"13","name":"Text 7","type":"shape","text":"Không phải cho AI — quá mơ hồ, quá nhiều ngữ cảnh ngầm định.","position":{"left":582.6103937007874,"top":582.7291338582677,"width":605.401469816273,"height":31.750026246719163}}
+
+--- SLIDE 3 ---
+{"shapeIndex":0,"id":"3","name":"Text 0","type":"shape","text":"SDD Là Gì?","position":{"left":482.98792650918637,"top":83.04167979002625,"width":728.1901312335958,"height":49.40629921259843}}
+{"shapeIndex":1,"id":"4","name":"Text 1","type":"shape","text":"Spec là \"hợp đồng\" giữa ý định con người và năng lực thực thi của AI.","position":{"left":482.98792650918637,"top":145.04167979002625,"width":792.1885564304462,"height":22.72913385826772}}
+{"shapeIndex":3,"id":"7","name":"Text 3","type":"shape","text":"Executable Specification: Đủ rõ ràng để AI không cần đoán — đủ dễ đọc để con người review.","position":{"left":534.3720734908137,"top":197.21879265091863,"width":724.9922309711286,"height":22.72913385826772}}
+{"shapeIndex":4,"id":"8","name":"Text 4","type":"shape","text":"Quy trình 5 pha:","position":{"left":482.98792650918637,"top":249.3958005249344,"width":792.1885564304462,"height":22.72913385826772}}
+{"shapeIndex":5,"id":"10","name":"Text 5","type":"shape","text":"Context","position":{"left":498.8,"top":362.13543307086616,"width":332.4708661417323,"height":24.708346456692915}}
+{"shapeIndex":6,"id":"12","name":"Text 6","type":"shape","text":"Spec","position":{"left":862.8951181102362,"top":362.13543307086616,"width":332.4708661417323,"height":24.708346456692915}}
+{"shapeIndex":7,"id":"14","name":"Text 7","type":"shape","text":"Plan","position":{"left":498.8,"top":478.5000524934383,"width":332.4708661417323,"height":24.708346456692915}}
+{"shapeIndex":8,"id":"16","name":"Text 8","type":"shape","text":"Tasks","position":{"left":862.8951181102362,"top":478.5000524934383,"width":332.4708661417323,"height":24.708346456692915}}
+{"shapeIndex":9,"id":"18","name":"Text 9","type":"shape","text":"Implement","position":{"left":498.8,"top":594.8645669291338,"width":332.4708661417323,"height":24.708346456692915}}
+
+--- SLIDE 4 ---
+{"shapeIndex":0,"id":"2","name":"Text 0","type":"shape","text":"8 Thành Phần Spec Bắt Buộc","position":{"left":69.44619422572178,"top":58.541627296587926,"width":1141.0755905511812,"height":43.60419947506562}}
+{"shapeIndex":3,"id":"6","name":"Text 3","type":"shape","text":"Context & Goal","position":{"left":84.06036745406824,"top":188.03128608923885,"width":536.4032545931759,"height":21.791706036745406}}
+{"shapeIndex":4,"id":"7","name":"Text 4","type":"shape","text":"Tại sao feature tồn tại?","position":{"left":84.06036745406824,"top":215.7083464566929,"width":536.4032545931759,"height":19.010393700787404}}
+{"shapeIndex":7,"id":"11","name":"Text 7","type":"shape","text":"Actors & Roles","position":{"left":659.4939632545932,"top":188.03128608923885,"width":536.4136482939633,"height":21.791706036745406}}
+{"shapeIndex":8,"id":"12","name":"Text 8","type":"shape","text":"Ai tương tác? Với quyền gì?","position":{"left":659.4939632545932,"top":215.7083464566929,"width":536.4136482939633,"height":19.010393700787404}}
+{"shapeIndex":11,"id":"16","name":"Text 11","type":"shape","text":"Functional Requirements","position":{"left":84.06036745406824,"top":325.4062992125984,"width":536.4032545931759,"height":21.791706036745406}}
+{"shapeIndex":12,"id":"17","name":"Text 12","type":"shape","text":"Hệ thống làm gì?","position":{"left":84.06036745406824,"top":353.0833595800525,"width":536.4032545931759,"height":19.010393700787404}}
+{"shapeIndex":15,"id":"21","name":"Text 15","type":"shape","text":"Non-functional Requirements","position":{"left":659.4939632545932,"top":325.4062992125984,"width":536.4136482939633,"height":21.791706036745406}}
+{"shapeIndex":16,"id":"22","name":"Text 16","type":"shape","text":"Tốt đến mức nào?","position":{"left":659.4939632545932,"top":353.0833595800525,"width":536.4136482939633,"height":19.010393700787404}}
+{"shapeIndex":19,"id":"26","name":"Text 19","type":"shape","text":"Data Model","position":{"left":84.06036745406824,"top":462.7812073490814,"width":536.4032545931759,"height":21.791706036745406}}
+{"shapeIndex":20,"id":"27","name":"Text 20","type":"shape","text":"Cấu trúc dữ liệu ra sao?","position":{"left":84.06036745406824,"top":490.45837270341207,"width":536.4032545931759,"height":19.010393700787404}}
+{"shapeIndex":23,"id":"31","name":"Text 23","type":"shape","text":"Error Handling","position":{"left":659.4939632545932,"top":462.7812073490814,"width":536.4136482939633,"height":21.791706036745406}}
+{"shapeIndex":24,"id":"32","name":"Text 24","type":"shape","text":"Xử lý lỗi thế nào?","position":{"left":659.4939632545932,"top":490.45837270341207,"width":536.4136482939633,"height":19.010393700787404}}
+{"shapeIndex":27,"id":"36","name":"Text 27","type":"shape","text":"Acceptance Criteria","position":{"left":84.06036745406824,"top":600.156220472441,"width":536.4032545931759,"height":21.791706036745406}}
+{"shapeIndex":28,"id":"37","name":"Text 28","type":"shape","text":"Khi nào là \"done\"?","position":{"left":84.06036745406824,"top":627.8333858267716,"width":536.4032545931759,"height":19.010393700787404}}
+{"shapeIndex":31,"id":"41","name":"Text 31","type":"shape","text":"Out of Scope","position":{"left":659.4939632545932,"top":600.156220472441,"width":536.4136482939633,"height":21.791706036745406}}
+{"shapeIndex":32,"id":"42","name":"Text 32","type":"shape","text":"Không làm gì?","position":{"left":659.4939632545932,"top":627.8333858267716,"width":536.4136482939633,"height":19.010393700787404}}
+
+--- SLIDE 5 ---
+{"shapeIndex":0,"id":"2","name":"Text 0","type":"shape","text":"EARS Notation: Ngôn Ngữ Không Mơ Hồ","position":{"left":69.44619422572178,"top":139.32293963254594,"width":546.3300787401575,"height":124.02078740157481}}
+{"shapeIndex":1,"id":"3","name":"Text 1","type":"shape","text":"Mỗi requirement có đúng MỘT cách hiểu duy nhất — loại bỏ hoàn toàn sự mơ hồ.","position":{"left":69.44619422572178,"top":283.1875065616798,"width":546.3300787401575,"height":63.500052493438325}}
+{"shapeIndex":2,"id":"4","name":"Text 2","type":"shape","text":"Ví dụ thực tế:","position":{"left":694.6180577427822,"top":161.64587926509188,"width":516.5703937007875,"height":31}}
+{"shapeIndex":3,"id":"5","name":"Text 3","type":"shape","text":"GIVEN người dùng nhập email + password hợp lệ\nWHEN nhấn nút Đăng nhập\nTHEN hash bcrypt (cost=12), tạo JWT RS256, expiry = 15 phút","position":{"left":694.6180577427822,"top":212.48955380577428,"width":516.5703937007875,"height":162.7083464566929}}
+{"shapeIndex":5,"id":"7","name":"Text 5","type":"shape","text":"Không còn \"xử lý login\" mơ hồ — AI biết chính xác phải làm gì.","position":{"left":664.8583727034121,"top":415.3750131233596,"width":610.3285039370079,"height":31.750026246719163}}
+{"shapeIndex":7,"id":"9","name":"Text 7","type":"shape","text":"1","position":{"left":76.88871391076115,"top":491.0207874015748,"width":29.75968503937008,"height":37.2082939632546}}
+{"shapeIndex":8,"id":"10","name":"Text 8","type":"shape","text":"GIVEN [context]","position":{"left":133.93417322834645,"top":494.1145406824147,"width":299.3362729658793,"height":31}}
+{"shapeIndex":9,"id":"11","name":"Text 9","type":"shape","text":"Trạng thái ban đầu của hệ thống.","position":{"left":133.93417322834645,"top":537.0207874015748,"width":299.3362729658793,"height":31.750026246719163}}
+{"shapeIndex":11,"id":"13","name":"Text 11","type":"shape","text":"2","position":{"left":465.51443569553805,"top":491.0207874015748,"width":29.75968503937008,"height":37.2082939632546}}
+{"shapeIndex":12,"id":"14","name":"Text 12","type":"shape","text":"WHEN [event]","position":{"left":522.5598950131234,"top":494.1145406824147,"width":299.3362729658793,"height":31}}
+{"shapeIndex":13,"id":"15","name":"Text 13","type":"shape","text":"Hành động hoặc sự kiện xảy ra.","position":{"left":522.5598950131234,"top":537.0207874015748,"width":299.3362729658793,"height":31.750026246719163}}
+{"shapeIndex":15,"id":"17","name":"Text 15","type":"shape","text":"3","position":{"left":854.1400524934384,"top":491.0207874015748,"width":29.75968503937008,"height":37.2082939632546}}
+{"shapeIndex":16,"id":"18","name":"Text 16","type":"shape","text":"THEN [outcome]","position":{"left":911.1855118110236,"top":494.1145406824147,"width":299.3362729658793,"height":31}}
+{"shapeIndex":17,"id":"19","name":"Text 17","type":"shape","text":"Kết quả chính xác, đo lường được.","position":{"left":911.1855118110236,"top":537.0207874015748,"width":299.3362729658793,"height":63.500052493438325}}
+
+--- SLIDE 6 ---
+{"shapeIndex":2,"id":"5","name":"Text 2","type":"shape","text":"PHẦN 2","position":{"left":561.3401574803149,"top":238.26036745406824,"width":119.98656167979003,"height":18.24997375328084}}
+{"shapeIndex":3,"id":"6","name":"Text 3","type":"shape","text":"Kinh Nghiệm Thực Tế: Những Khó Khăn","position":{"left":549.4341207349081,"top":270.3958005249344,"width":661.0876640419948,"height":124.02078740157481}}
+{"shapeIndex":4,"id":"7","name":"Text 4","type":"shape","text":"Những bài học được rút ra từ thực tế triển khai SDD","position":{"left":549.4341207349081,"top":424.1771128608924,"width":661.0876640419948,"height":63.500052493438325}}
+
+--- SLIDE 7 ---
+{"shapeIndex":1,"id":"4","name":"Text 1","type":"shape","text":"KHÓ KHĂN #1","position":{"left":498.33123359580054,"top":124.04167979002625,"width":165.81879265091865,"height":18.24997375328084}}
+{"shapeIndex":2,"id":"5","name":"Text 2","type":"shape","text":"Spec Không Bao Giờ Hoàn Hảo Lần Đầu","position":{"left":486.42530183727035,"top":156.1771128608924,"width":724.7526509186353,"height":124.02078740157481}}
+{"shapeIndex":3,"id":"7","name":"Text 3","type":"shape","text":"Team luôn bỏ sót chi tiết hoặc viết mơ hồ","position":{"left":550.913280839895,"top":302.5208398950131,"width":285.48241469816276,"height":62}}
+{"shapeIndex":5,"id":"10","name":"Text 5","type":"shape","text":"AI review spec → phát hiện gaps","position":{"left":550.9518110236221,"top":410.92083989501316,"width":285.49280839895016,"height":62}}
+{"shapeIndex":6,"id":"13","name":"Text 7","type":"shape","text":"Cần 2–3 vòng lặp để spec \"locked\"","position":{"left":550.913280839895,"top":519.3020472440945,"width":660.2647769028872,"height":31}}
+
+--- SLIDE 8 ---
+{"shapeIndex":0,"id":"2","name":"Text 0","type":"shape","text":"SPEC trước và sau khi sửa","position":{"left":69.44619422572178,"top":74.26036745406824,"width":1141.0755905511812,"height":46.51044619422572}}
+{"shapeIndex":3,"id":"5","name":"Text 3","type":"shape","text":"SPEC MƠ HỒ","position":{"left":82.52913385826771,"top":154.52083989501313,"width":134.2675065616798,"height":13.68745406824147}}
+{"shapeIndex":4,"id":"6","name":"Text 4","type":"shape","text":"3 requirement nhưng có quá nhiều cách hiểu","position":{"left":73.6023097112861,"top":177.12503937007875,"width":535.2366404199475,"height":27.895853018372705}}
+{"shapeIndex":5,"id":"7","name":"Text 5","type":"shape","text":"Vấn đề: Spec càng ngắn, càng dễ mơ hồ.","position":{"left":73.6023097112861,"top":216.1771128608924,"width":599.2349606299213,"height":20.833385826771654}}
+{"shapeIndex":6,"id":"8","name":"Text 6","type":"shape","text":"REQ-GRADE-001: Nhập điểm từng ô","position":{"left":73.6023097112861,"top":248.166719160105,"width":535.2366404199475,"height":27.895853018372705}}
+{"shapeIndex":7,"id":"9","name":"Text 7","type":"shape","text":"GIVEN giảng viên đang xem bảng điểm WHEN nhấp đúp vào ô điểm và nhập giá trị THEN hệ thống lưu điểm vào cơ sở dữ liệu","position":{"left":73.6023097112861,"top":287.21879265091866,"width":535.2366404199475,"height":41.66666666666667}}
+{"shapeIndex":8,"id":"10","name":"Text 8","type":"shape","text":"REQ-GRADE-002: Import điểm hàng loạt","position":{"left":73.6023097112861,"top":340.04167979002625,"width":535.2366404199475,"height":27.895853018372705}}
+{"shapeIndex":9,"id":"11","name":"Text 9","type":"shape","text":"GIVEN giảng viên có dữ liệu điểm từ file Excel WHEN dán dữ liệu vào ô import THEN hệ thống áp dụng điểm cho các sinh viên tương ứng","position":{"left":73.6023097112861,"top":379.0937532808399,"width":535.2366404199475,"height":41.66666666666667}}
+{"shapeIndex":10,"id":"12","name":"Text 10","type":"shape","text":"REQ-GRADE-003: Xuất file .fg","position":{"left":73.6023097112861,"top":431.9166404199475,"width":535.2366404199475,"height":27.895853018372705}}
+{"shapeIndex":11,"id":"13","name":"Text 11","type":"shape","text":"GIVEN giảng viên muốn xuất dữ liệu WHEN nhấn nút \"Xuất .fg\" THEN hệ thống tạo file .fg để tải về\n3 requirements × 5 ways to interpret = 15 interpretation paths","position":{"left":73.6023097112861,"top":470.96871391076115,"width":535.2366404199475,"height":72.54162729658793}}
+{"shapeIndex":14,"id":"16","name":"Text 14","type":"shape","text":"ÁP DỤNG EARS","position":{"left":663.056377952756,"top":154.52083989501313,"width":146.2671916010499,"height":13.68745406824147}}
+{"shapeIndex":15,"id":"17","name":"Text 15","type":"shape","text":"Chuyển từng requirement sang WHEN/THEN rõ ràng","position":{"left":654.1294488188977,"top":177.12503937007875,"width":552.8923884514436,"height":27.895853018372705}}
+{"shapeIndex":16,"id":"18","name":"Text 16","type":"shape","text":"REQ-GRADE-001: Nhập điểm từng ô (EARS: Event-driven)","position":{"left":654.1294488188977,"top":209.47916010498687,"width":552.8923884514436,"height":55.79170603674541}}
+{"shapeIndex":17,"id":"19","name":"Text 17","type":"shape","text":"GIVEN giảng viên đang xem bảng điểm (draft hoặc server mode) WHEN nhấp đúp vào ô điểm → nhập số → nhấn Enter hoặc blur THEN","position":{"left":654.1294488188977,"top":276.4270866141732,"width":552.8923884514436,"height":41.66666666666667}}
+{"shapeIndex":18,"id":"20","name":"Text 18","type":"shape","text":"Hệ thống validate: 0 <= value <= 10, tối đa 2 chữ số thập phân (8.5 OK, 8.123 reject)\nChấp nhận cả dot (8.5) và comma (8,5) → auto-convert comma sang dot\nReject: NaN, Infinity, suffix text (8.5abc), ngoài khoảng\nError toast thống nhất tiếng Việt: \"Điểm phải nằm trong khoảng 0-10\"\nDraft mode: lưu vào local state + sessionStorage\nServer mode: PATCH /api/grades với body { studentId, componentId, value: number | null }","position":{"left":654.1294488188977,"top":328.13543307086616,"width":552.8923884514436,"height":190.1979002624672}}
+{"shapeIndex":19,"id":"21","name":"Text 19","type":"shape","text":"NON-FUNCTIONAL:","position":{"left":654.1294488188977,"top":528.3750131233596,"width":616.8908136482939,"height":20.833385826771654}}
+{"shapeIndex":20,"id":"22","name":"Text 20","type":"shape","text":"Validate NGAY TẠI INPUT (client-side) trước khi gọi API\nServer-side validate là safety net, không phải primary validation","position":{"left":654.1294488188977,"top":559.2499737532809,"width":552.8923884514436,"height":45.57291338582677}}
+
+--- SLIDE 9 ---
+{"shapeIndex":0,"id":"5","name":"Text 2","type":"shape","text":"Security-First Thinking Thiếu","position":{"left":69.44619422572178,"top":80.77081364829397,"width":1141.0755905511812,"height":53.40629921259843}}
+{"shapeIndex":2,"id":"7","name":"Text 4","type":"shape","text":"Định Nghĩa Pattern","position":{"left":74.22729658792652,"top":176.22918635170603,"width":540.132283464567,"height":26.69795275590551}}
+{"shapeIndex":3,"id":"8","name":"Text 5","type":"shape","text":"Do tập trung vào \"endpoint hoạt động như thế nào\" mà quên hỏi câu hỏi nền tảng: \"Ai được phép thực hiện hành động này?\"\nKết quả: Functional requirements được viết đầy đủ, nhưng security constraints hoàn toàn vắng mặt. Developer implement đúng spec — và tạo ra lỗ hổng bảo mật.","position":{"left":74.22729658792652,"top":219.75002624671916,"width":540.132283464567,"height":150.81249343832022}}
+{"shapeIndex":4,"id":"9","name":"Text 6","type":"shape","text":"Gaps Bị Ảnh Hưởng","position":{"left":661.4938582677165,"top":176.22918635170603,"width":549.694593175853,"height":26.69795275590551}}
+{"shapeIndex":6,"id":"11","name":"Text 8","type":"shape","text":"GAP-001","position":{"left":680.5766929133858,"top":240.93753280839897,"width":228.26509186351706,"height":26.69795275590551}}
+{"shapeIndex":7,"id":"12","name":"Text 9","type":"shape","text":"Public .fg import/export không auth","position":{"left":680.5766929133858,"top":284.45837270341207,"width":228.26509186351706,"height":54.270866141732284}}
+{"shapeIndex":9,"id":"14","name":"Text 11","type":"shape","text":"GAP-002","position":{"left":963.8300262467192,"top":240.93753280839897,"width":228.27559055118112,"height":26.69795275590551}}
+{"shapeIndex":10,"id":"15","name":"Text 12","type":"shape","text":"Không ownership check trước khi xóa","position":{"left":963.8300262467192,"top":284.45837270341207,"width":228.27559055118112,"height":54.270866141732284}}
+{"shapeIndex":12,"id":"17","name":"Text 14","type":"shape","text":"GAP-004","position":{"left":680.5766929133858,"top":393.71874015748034,"width":511.5288188976378,"height":26.69795275590551}}
+{"shapeIndex":13,"id":"18","name":"Text 15","type":"shape","text":"Không rate limiting trên login endpoint","position":{"left":680.5766929133858,"top":437.23958005249347,"width":511.5288188976378,"height":27.135433070866142}}
+{"shapeIndex":15,"id":"20","name":"Text 17","type":"shape","text":"Root Cause","position":{"left":661.4938582677165,"top":531.8541732283464,"width":549.694593175853,"height":26.69795275590551}}
+{"shapeIndex":16,"id":"21","name":"Text 18","type":"shape","text":"Spec template không có security checklist bắt buộc. Không có cơ chế nào nhắc spec writer phải trả lời các câu hỏi bảo mật trước khi viết functional requirement.","position":{"left":661.4938582677165,"top":575.3750131233596,"width":549.694593175853,"height":81.40629921259843}}
+{"shapeIndex":18,"id":"25","name":"Text 1","type":"shape","text":"KHÓ KHĂN #2","position":{"left":74.1979002624672,"top":54.37501312335958,"width":165.81879265091865,"height":18.24997375328084}}
+
+--- SLIDE 10 ---
+{"shapeIndex":0,"id":"2","name":"Text 0","type":"shape","text":"Spec Evidence:","position":{"left":69.44619422572178,"top":54.125039370078746,"width":1205.0740157480316,"height":13.62498687664042}}
+{"shapeIndex":2,"id":"4","name":"Text 2","type":"shape","text":"Spec ĐÃ Viết (có trong SPEC.md):\n\n  REQ-FG-01: THE system SHALL decrypt .fg files\n  using AES-256-CBC and return parsed grade data as JSON.\n\n  REQ-FG-02: THE system SHALL accept .fg file\n  upload via multipart/form-data with password field.\n\n  REQ-GS-01: THE system SHALL delete gradesheet\n  by ID when DELETE /api/gradesheets/:id is called.\n\n  REQ-GS-02: THE system SHALL return success\n  response upon successful deletion.\n\n\nSpec THIẾU:\n\n  REQ-SEC-01: THE system SHALL require\n  authenticated session BEFORE processing .fg import/export.\n  ← Bất kỳ ai có URL đều upload/download được\n\n  REQ-SEC-02: THE system SHALL NOT expose\n  parsed grade data to unauthenticated users.\n  ← Dữ liệu điểm số nhạy cảm bị public\n\n  REQ-SEC-03: THE system SHALL verify\n  requesting user is owner BEFORE gradesheet deletion.\n  ← User A xóa được gradesheet của User B\n\n  REQ-SEC-04: THE system SHALL NOT allow\n  deletion of gradesheets owned by other users.\n  ← Không có boundary giữa users\n\nAnnotation: Spec viết 4/8 requirements — thiếu tất cả security constraints. Spec template không có security section → gaps lọt vào production.","position":{"left":82.13333333333334,"top":85.57291338582678,"width":1115.7012073490814,"height":575.5208398950132}}
+
+--- SLIDE 11 ---
+{"shapeIndex":0,"id":"2","name":"Text 0","type":"shape","text":"Code Evidence","position":{"left":69.44619422572178,"top":49.57291338582677,"width":1141.0755905511812,"height":46.62498687664042}}
+{"shapeIndex":1,"id":"3","name":"Text 1","type":"shape","text":"GAP-001 — Public .fg Import/Export","position":{"left":69.44619422572178,"top":128.24997375328084,"width":552.3403674540683,"height":24.645879265091864}}
+{"shapeIndex":3,"id":"5","name":"Text 3","type":"shape","text":"export async function POST(req: NextRequest) {\n  // ← KHÔNG CÓ auth check\n  const formData = await req.formData();\n  const file = formData.get(\"file\") as File | null;\n  // ... xử lý file, decrypt, trả về data\n  return NextResponse.json({ success: true, data });\n}","position":{"left":87.35202099737533,"top":182.22918635170603,"width":516.5287139107612,"height":167.12503937007875}}
+{"shapeIndex":4,"id":"6","name":"Text 4","type":"shape","text":"Spec thiếu: \"THE system SHALL require authenticated session before processing\"","position":{"left":69.44619422572178,"top":378.6874540682415,"width":616.3387926509187,"height":22.197900262467193}}
+{"shapeIndex":6,"id":"9","name":"Text 6","type":"shape","text":"Bất kỳ ai có URL đều có thể upload/download file .fg chứa dữ liệu điểm số nhạy cảm.","position":{"left":117.92409448818898,"top":430.5625196850394,"width":488.9461417322835,"height":45.06246719160105}}
+{"shapeIndex":7,"id":"10","name":"Text 7","type":"shape","text":"GAP-002 — Không Ownership Check","position":{"left":658.8480839895013,"top":128.24997375328084,"width":552.3403674540683,"height":23.31254593175853}}
+{"shapeIndex":9,"id":"12","name":"Text 9","type":"shape","text":"export async function DELETE(_req, { params }) {\n  const session = await auth();\n  if (!session?.user)\n    return NextResponse.json(\n      { error: \"Unauthorized\" },\n      { status: 401 }\n    );\n  // ← Có auth nhưng KHÔNG ownership check\n  const { id } = await params;\n  db.delete(gradesheets)\n    .where(eq(gradesheets.id, parseInt(id)))\n    .run();\n  return NextResponse.json({ success: true });\n}","position":{"left":676.7539107611549,"top":180.89585301837272,"width":516.5287139107612,"height":334.24997375328087}}
+{"shapeIndex":10,"id":"13","name":"Text 10","type":"shape","text":"Spec thiếu: \"THE system SHALL verify requesting user is owner before deletion\"","position":{"left":658.8480839895013,"top":544.4791601049869,"width":616.3387926509187,"height":22.197900262467193}}
+{"shapeIndex":12,"id":"16","name":"Text 12","type":"shape","text":"User A đã đăng nhập có thể xóa gradesheet của User B bằng cách đoán ID.","position":{"left":707.3260892388452,"top":596.3541207349082,"width":488.9461417322835,"height":44.39580052493439}}
+
+--- SLIDE 12 ---
+{"shapeIndex":0,"id":"5","name":"Text 2","type":"shape","text":"Chỉ Viết Happy Path","position":{"left":69.44619422572178,"top":88.42708661417323,"width":1141.0755905511812,"height":54.24997375328084}}
+{"shapeIndex":2,"id":"7","name":"Text 4","type":"shape","text":"Định Nghĩa Pattern","position":{"left":74.3002624671916,"top":186.0729658792651,"width":539.65312335958,"height":27.135433070866142}}
+{"shapeIndex":3,"id":"8","name":"Text 5","type":"shape","text":"Spec define behavior khi mọi thứ hoạt động đúng, nhưng không define \"điều gì xảy ra khi fail\". Đây là lỗi phổ biến nhất trong requirement engineering.\nVới data operations, happy path thinking đặc biệt nguy hiểm: partial failure có thể để lại hệ thống ở trạng thái không nhất quán mà không có cơ chế rollback.","position":{"left":74.3002624671916,"top":230.56251968503938,"width":539.65312335958,"height":182.31254593175854}}
+{"shapeIndex":5,"id":"10","name":"Text 7","type":"shape","text":"Gaps Bị Ảnh Hưởng","position":{"left":74.3002624671916,"top":462.6041994750656,"width":539.65312335958,"height":27.135433070866142}}
+{"shapeIndex":7,"id":"12","name":"Text 9","type":"shape","text":"GAP-003","position":{"left":92.32062992125985,"top":527.2916535433071,"width":503.61238845144356,"height":27.135433070866142}}
+{"shapeIndex":8,"id":"13","name":"Text 10","type":"shape","text":"Bulk import không transactional — partial commit không được spec ngăn chặn","position":{"left":92.32062992125985,"top":571.7812073490813,"width":503.61238845144356,"height":55.56251968503937}}
+{"shapeIndex":9,"id":"14","name":"Text 11","type":"shape","text":"Root Cause: Thiếu Unwanted EARS","position":{"left":661.8271916010499,"top":186.0729658792651,"width":549.3612598425198,"height":27.135433070866142}}
+{"shapeIndex":10,"id":"15","name":"Text 12","type":"shape","text":"EARS (Easy Approach to Requirements Syntax) có pattern Unwanted dành riêng cho failure scenarios:","position":{"left":661.8271916010499,"top":230.56251968503938,"width":549.3612598425198,"height":55.56251968503937}}
+{"shapeIndex":11,"id":"16","name":"Text 13","type":"shape","text":"\"IF [unwanted condition] THEN THE system SHALL [protective response]\"","position":{"left":687.8682414698163,"top":321.2812598425197,"width":523.3202099737533,"height":55.56251968503937}}
+{"shapeIndex":13,"id":"18","name":"Text 15","type":"shape","text":"Spec writer chỉ dùng EARS pattern Event-driven (WHEN...THE system SHALL) mà bỏ qua Unwanted pattern. Kết quả: không có requirement nào bảo vệ tính toàn vẹn dữ liệu khi bulk operation thất bại.","position":{"left":661.8271916010499,"top":412,"width":549.3612598425198,"height":83.34372703412073}}
+{"shapeIndex":15,"id":"20","name":"Text 17","type":"shape","text":"Hậu Quả Thực Tế","position":{"left":661.8271916010499,"top":545.0729658792651,"width":549.3612598425198,"height":27.135433070866142}}
+{"shapeIndex":16,"id":"21","name":"Text 18","type":"shape","text":"Row 50 trong bulk import lỗi → 49 rows đầu đã commit → database ở trạng thái half-imported không thể tự phục hồi.","position":{"left":661.8271916010499,"top":589.5625196850394,"width":549.3612598425198,"height":55.56251968503937}}
+{"shapeIndex":18,"id":"25","name":"Text 1","type":"shape","text":"KHÓ KHĂN 3#333333333","position":{"left":69.46456692913387,"top":53.30834645669292,"width":165.81879265091865,"height":18.24997375328084}}
+
+--- SLIDE 13 ---
+{"shapeIndex":0,"id":"2","name":"Text 0","type":"shape","text":"Spec Evidence","position":{"left":69.44619422572178,"top":103.68745406824148,"width":1141.0755905511812,"height":54.24997375328084}}
+{"shapeIndex":2,"id":"4","name":"Text 2","type":"shape","text":"Spec ĐÃ Viết:\n\n  REQ-BI-01: WHEN user submits bulk grade import\n  THEN THE system SHALL process each row and return\n  per-row status.\n\n  REQ-BI-02: WHEN row has valid student + valid\n  grade THEN THE system SHALL upsert grade record.\n\n  REQ-BI-03: WHEN row has invalid student\n  THEN THE system SHALL return \"not_found\" for that row.\n\nAnnotation: Spec viết 3/6 requirements — chỉ cover happy path. Unwanted EARS pattern tồn tại CHÍNH để handle failure scenarios. 1 Unwanted requirement đủ buộc developer wrap trong db.transaction().","position":{"left":90.2789501312336,"top":210.0103937007874,"width":1099.4099737532808,"height":388.93753280839894}}
+
+--- SLIDE 14 ---
+{"shapeIndex":0,"id":"2","name":"Text 0","type":"shape","text":"Code Evidence:  Bulk Import Không Transactional","position":{"left":69.44619422572178,"top":49.500052493438325,"width":1141.0755905511812,"height":35.60419947506562}}
+{"shapeIndex":2,"id":"4","name":"Text 2","type":"shape","text":"for (const row of rows) {\n  // ← Loop thông thường, KHÔNG có transaction wrapper\n  const stu = stuList.find(...);\n\n  if (!stu) {\n    results.push({ roll, status: \"not_found\" });\n    continue; // ← Skip row lỗi, tiếp tục loop\n  }\n\n  db.update(grades)\n    .set({...})\n    .run(); // ← Commit NGAY LẬP TỨC, không chờ toàn bộ batch\n\n  results.push({ roll, status: \"ok\" });\n}\n// ← Row 50 lỗi → 49 rows đầu ĐÃ commit → half-imported state\n// ← Không có rollback, không có compensating transaction","position":{"left":83.11254593175853,"top":111.43748031496064,"width":1113.7429921259843,"height":309.8958530183727}}
+{"shapeIndex":3,"id":"5","name":"Text 3","type":"shape","text":"Spec Thiếu (Unwanted EARS)","position":{"left":70.77952755905513,"top":526.8603674540683,"width":556.6423097112861,"height":17.791706036745406}}
+{"shapeIndex":4,"id":"6","name":"Text 4","type":"shape","text":"\"IF bulk import fails at any row THEN THE system SHALL NOT commit partial data and SHALL rollback all changes from the current batch\"","position":{"left":87.86246719160106,"top":559.7875065616798,"width":539.5593700787401,"height":30.18750656167979}}
+{"shapeIndex":6,"id":"8","name":"Text 6","type":"shape","text":"Một requirement duy nhất này, nếu có trong spec, sẽ buộc developer phải wrap toàn bộ loop trong một database transaction.","position":{"left":70.77952755905513,"top":605.1104461942258,"width":556.6423097112861,"height":30.18750656167979}}
+{"shapeIndex":7,"id":"10","name":"Text 8","type":"shape","text":"Fix Pattern (Tham Khảo)","position":{"left":657.7231496062992,"top":448.5937007874016,"width":550.2882939632547,"height":17.791706036745406}}
+{"shapeIndex":8,"id":"13","name":"Text 11","type":"shape","text":"Đây không phải lỗi của developer — spec không yêu cầu transactional behavior, nên developer không implement nó.","position":{"left":657.7231496062992,"top":633.5729133858268,"width":550.2882939632547,"height":30.18750656167979}}
+
+--- SLIDE 15 ---
+{"shapeIndex":0,"id":"2","name":"Text 0","type":"shape","text":"Checklist","position":{"left":69.44619422572178,"top":84.47916010498687,"width":1141.0755905511812,"height":54.24997375328084}}
+{"shapeIndex":1,"id":"3","name":"Text 1","type":"shape","text":"Dùng checklist này để đánh giá spec hiện tại trước khi handoff cho development team.","position":{"left":69.44619422572178,"top":173.44787401574803,"width":1205.0740157480316,"height":27.781207349081367}}
+{"shapeIndex":3,"id":"5","name":"Text 3","type":"shape","text":"Security","position":{"left":74.3002624671916,"top":238.1145406824147,"width":539.65312335958,"height":27.135433070866142}}
+{"shapeIndex":4,"id":"6","name":"Text 4","type":"shape","text":"Mọi endpoint có auth requirement tường minh","position":{"left":74.3002624671916,"top":282.6041994750656,"width":603.6515485564305,"height":27.781207349081367}}
+{"shapeIndex":6,"id":"8","name":"Text 6","type":"shape","text":"Ownership check được specify cho write operations","position":{"left":74.3002624671916,"top":316.45837270341207,"width":603.6515485564305,"height":27.781207349081367}}
+{"shapeIndex":8,"id":"10","name":"Text 8","type":"shape","text":"Rate limiting được mention cho sensitive endpoints","position":{"left":74.3002624671916,"top":350.31254593175856,"width":603.6515485564305,"height":27.781207349081367}}
+{"shapeIndex":10,"id":"12","name":"Text 10","type":"shape","text":"PII exposure được đánh giá và document","position":{"left":74.3002624671916,"top":384.16661417322837,"width":603.6515485564305,"height":27.781207349081367}}
+{"shapeIndex":13,"id":"15","name":"Text 13","type":"shape","text":"Atomicity & Data Integrity","position":{"left":74.3002624671916,"top":461.6770603674541,"width":539.65312335958,"height":27.135433070866142}}
+{"shapeIndex":14,"id":"16","name":"Text 14","type":"shape","text":"Bulk operations có Unwanted EARS requirement","position":{"left":74.3002624671916,"top":506.166719160105,"width":603.6515485564305,"height":27.781207349081367}}
+{"shapeIndex":16,"id":"18","name":"Text 16","type":"shape","text":"Failure scenarios được define cho mọi data mutation","position":{"left":74.3002624671916,"top":540.0207874015748,"width":603.6515485564305,"height":27.781207349081367}}
+{"shapeIndex":18,"id":"20","name":"Text 18","type":"shape","text":"Rollback behavior được specify tường minh","position":{"left":74.3002624671916,"top":573.8749606299212,"width":603.6515485564305,"height":27.781207349081367}}
+{"shapeIndex":20,"id":"22","name":"Text 20","type":"shape","text":"Challenge-Back","position":{"left":661.8271916010499,"top":238.1145406824147,"width":549.3612598425198,"height":27.135433070866142}}
+{"shapeIndex":21,"id":"23","name":"Text 21","type":"shape","text":"Đã hỏi \"Hiện trạng có đúng không?\" trước khi spec hóa","position":{"left":661.8271916010499,"top":282.6041994750656,"width":613.3596850393701,"height":27.781207349081367}}
+{"shapeIndex":23,"id":"25","name":"Text 23","type":"shape","text":"Security practices (hashing, encryption) được review","position":{"left":661.8271916010499,"top":316.45837270341207,"width":613.3596850393701,"height":27.781207349081367}}
+{"shapeIndex":25,"id":"27","name":"Text 25","type":"shape","text":"Không copy behavior xấu từ legacy system","position":{"left":661.8271916010499,"top":350.31254593175856,"width":613.3596850393701,"height":27.781207349081367}}
+{"shapeIndex":28,"id":"30","name":"Text 28","type":"shape","text":"Structural & Governance","position":{"left":661.8271916010499,"top":427.82288713910765,"width":549.3612598425198,"height":27.135433070866142}}
+{"shapeIndex":29,"id":"31","name":"Text 29","type":"shape","text":"ADR tồn tại cho mọi architectural decision","position":{"left":661.8271916010499,"top":472.31254593175856,"width":613.3596850393701,"height":27.781207349081367}}
+{"shapeIndex":31,"id":"33","name":"Text 31","type":"shape","text":"Schema definition có single source of truth","position":{"left":661.8271916010499,"top":506.166719160105,"width":613.3596850393701,"height":27.781207349081367}}
+{"shapeIndex":33,"id":"35","name":"Text 33","type":"shape","text":"File placement conventions được document","position":{"left":661.8271916010499,"top":540.0207874015748,"width":613.3596850393701,"height":27.781207349081367}}
+{"shapeIndex":35,"id":"37","name":"Text 35","type":"shape","text":"Non-functional requirements (testing, performance) có section riêng","position":{"left":661.8271916010499,"top":573.8749606299212,"width":549.3612598425198,"height":55.56251968503937}}
+
+--- SLIDE 16 ---
+{"shapeIndex":1,"id":"4","name":"Text 1","type":"shape","text":"KHÓ KHĂN #4","position":{"left":498.33123359580054,"top":199.93753280839897,"width":165.81879265091865,"height":18.24997375328084}}
+{"shapeIndex":2,"id":"5","name":"Text 2","type":"shape","text":"Team Không Hiểu Domain","position":{"left":486.42530183727035,"top":232.0729658792651,"width":724.7526509186353,"height":62.010393700787404}}
+{"shapeIndex":3,"id":"7","name":"Text 3","type":"shape","text":"Vấn đề","position":{"left":511.6017847769029,"top":316.4062992125984,"width":199.87002624671916,"height":31}}
+{"shapeIndex":4,"id":"8","name":"Text 4","type":"shape","text":"Nếu team không hiểu domain, spec sẽ thiếu business rules quan trọng và edge cases thực tế.","position":{"left":511.6017847769029,"top":367.24997375328087,"width":199.87002624671916,"height":158.75002624671916}}
+{"shapeIndex":5,"id":"10","name":"Text 5","type":"shape","text":"Hậu quả","position":{"left":761.4496587926509,"top":316.4062992125984,"width":199.87002624671916,"height":31}}
+{"shapeIndex":6,"id":"11","name":"Text 6","type":"shape","text":"AI implement đúng spec — nhưng miss hoàn toàn các trường hợp nghiệp vụ thực tế.","position":{"left":761.4496587926509,"top":367.24997375328087,"width":199.87002624671916,"height":127}}
+{"shapeIndex":7,"id":"13","name":"Text 7","type":"shape","text":"Cách vượt qua","position":{"left":1011.2976377952756,"top":316.4062992125984,"width":199.87002624671916,"height":31}}
+{"shapeIndex":8,"id":"14","name":"Text 8","type":"shape","text":"Luôn có domain expert trong team. Review spec với họ trước khi lock và bắt đầu implement.","position":{"left":1011.2976377952756,"top":367.24997375328087,"width":199.87002624671916,"height":158.75002624671916}}
+
+--- SLIDE 17 ---
+{"shapeIndex":0,"id":"5","name":"Text 2","type":"shape","text":"DEMO","position":{"left":565.0666666666667,"top":288.6,"width":149.8,"height":62}}
+
+--- HELP ---
+
+{
+  "slideMethods": [
+    "constructor",
+    "speakerNotes",
+    "background",
+    "id",
+    "index",
+    "slideNumber",
+    "creationId",
+    "shapes",
+    "useLayoutId",
+    "colorMap",
+    "setColorMap",
+    "showMasterShapes",
+    "images",
+    "tables",
+    "charts",
+    "artifacts",
+    "elements",
+    "theme",
+    "resolveRenderContext",
+    "getInheritedPlaceholderShapes",
+    "frame",
+    "setViewportSize",
+    "placeholders",
+    "setLayout",
+    "add",
+    "fromMermaid",
+    "duplicate",
+    "setIndex",
+    "hydrateCollaborativeRefsFromProto",
+    "toSnapshot",
+    "gridFrame",
+    "gridLayout",
+    "stackVertical",
+    "stackHorizontal",
+    "autoLayout",
+    "compose",
+    "getPresentation",
+    "copyComposeRunsFrom",
+    "moveTo",
+    "delete",
+    "export",
+    "toProto"
+  ],
+  "shapesMethods": [
+    "constructor",
+    "items",
+    "getItem",
+    "getItemAt",
+    "getById",
+    "add",
+    "connect",
+    "getConnectionSiteIndex",
+    "addPlaceholder",
+    "deleteById",
+    "deleteAll",
+    "toProto",
+    "setPlaceholdersFromProtos",
+    "hydrateCollaborativeRefsFromProto"
+  ],
+  "slidesMethods": [
+    "constructor",
+    "items",
+    "getItem",
+    "add",
+    "insert",
+    "remove",
+    "replace",
+    "getActive",
+    "setActive",
+    "count",
+    "toProto"
+  ],
+  "imageMethods": [
+    "constructor",
+    "items",
+    "add",
+    "deleteById",
+    "toProto"
+  ]
+}

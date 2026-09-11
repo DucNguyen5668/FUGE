@@ -1,0 +1,268 @@
+{"kind":"deck","id":"pr/wq4fyp","name":"Deck"}
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"","type":"master"}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"DEFAULT"}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout2.xml","name":"Slide master 1"}
+{"kind":"slide","id":"sl/y90nupkv","slide":1,"title":"FuGrade Web: Spec-Driven Development trong sản phẩm thật","textShapes":2}
+{"kind":"shape","id":"sh/547294r6","slide":1,"name":"Shape 0","bbox":[799.98,0,479.99,720]}
+{"kind":"textbox","id":"sh/7qp4be9c","slide":1,"name":"Text 1","text":"FuGrade Web: Spec-Driven Development trong sản phẩm thật","textPreview":"FuGrade Web: Spec-Driven Development trong sản phẩm thật","textChars":56,"textLines":1,"bbox":[69.45,251.35,661.09,124.02]}
+{"kind":"textbox","id":"sh/65g3298r","slide":1,"name":"Text 2","text":"Từ ứng dụng desktop legacy đến workspace bảng điểm trên web, có bằng chứng và ranh giới triển khai rõ ràng.","textPreview":"Từ ứng dụng desktop legacy đến workspace bảng điểm trên web, có bằng chứng và ranh giới triển khai rõ ràng.","textChars":107,"textLines":1,"bbox":[69.45,405.14,661.09,63.5]}
+{"kind":"image","id":"im/cj21o7ed","slide":1,"name":"Image 0","bbox":[809.9,53.22,460.14,613.55]}
+{"kind":"notes","id":"nt/y90nupkv","slide":1,"text":"Mở đầu bằng câu hỏi: làm thế nào để AI hỗ trợ chuyển một sản phẩm legacy lên web mà không làm sai nghiệp vụ? FuGrade là case study thực tế của bài trình bày này."}
+{"kind":"slide","id":"sl/hwbqtkby","slide":2,"title":"Vấn đề cốt lõi","textShapes":7}
+{"kind":"shape","id":"sh/9072xkry","slide":2,"name":"Shape 0","bbox":[0,0,479.99,720]}
+{"kind":"textbox","id":"sh/b29kza94","slide":2,"name":"Text 1","text":"Vấn đề cốt lõi","textPreview":"Vấn đề cốt lõi","textChars":14,"textLines":1,"bbox":[549.43,83,661.09,62.01]}
+{"kind":"textbox","id":"sh/x4r21kru","slide":2,"name":"Text 2","text":"Yêu cầu nghiệp vụ nằm rải rác","textPreview":"Yêu cầu nghiệp vụ nằm rải rác","textChars":29,"textLines":1,"bbox":[582.61,197.28,605.4,31]}
+{"kind":"textbox","id":"sh/w3i1sfa9","slide":2,"name":"Text 3","text":"Quy tắc .fg, chỉnh điểm, import và lưu snapshot xuất hiện ở cả desktop legacy lẫn web.","textPreview":"Quy tắc .fg, chỉnh điểm, import và lưu snapshot xuất hiện ở cả desktop legacy lẫn web.","textChars":86,"textLines":1,"bbox":[582.61,240.19,605.4,63.5]}
+{"kind":"textbox","id":"sh/q5wjelsz","slide":2,"name":"Text 4","text":"AI thiếu ranh giới triển khai","textPreview":"AI thiếu ranh giới triển khai","textChars":29,"textLines":1,"bbox":[582.61,368.55,605.4,31]}
+{"kind":"textbox","id":"sh/ove9o7yd","slide":2,"name":"Text 5","text":"Nếu không đọc source và artifact, AI dễ coi hành vi dự kiến là tính năng đã hoàn thành.","textPreview":"Nếu không đọc source và artifact, AI dễ coi hành vi dự kiến là tính năng đã hoàn thành.","textChars":87,"textLines":1,"bbox":[582.61,411.46,605.4,63.5]}
+{"kind":"textbox","id":"sh/mtwrmxg7","slide":2,"name":"Text 6","text":"Demo dễ nói quá hiện trạng","textPreview":"Demo dễ nói quá hiện trạng","textChars":26,"textLines":1,"bbox":[582.61,539.82,605.4,31]}
+{"kind":"textbox","id":"sh/nu58f2hs","slide":2,"name":"Text 7","text":"Ảnh sản phẩm và evidence phải tách phần đã chạy khỏi phần đang chờ review.","textPreview":"Ảnh sản phẩm và evidence phải tách phần đã chạy khỏi phần đang chờ review.","textChars":74,"textLines":1,"bbox":[582.61,582.73,605.4,31.75]}
+{"kind":"image","id":"im/vu5wza18","slide":2,"name":"Image 0","bbox":[9.92,53.22,460.14,613.55]}
+{"kind":"image","id":"im/atwv650n","slide":2,"name":"Image 1","bbox":[549.43,174.77,661.09,151.43]}
+{"kind":"image","id":"im/xwne10je","slide":2,"name":"Image 2","bbox":[549.43,346.04,661.09,151.43]}
+{"kind":"image","id":"im/wved8fit","slide":2,"name":"Image 3","bbox":[549.43,517.31,661.09,119.68]}
+{"kind":"notes","id":"nt/hwbqtkby","slide":2,"text":"Nhấn mạnh ba nguồn sự thật: source hiện tại, hành vi chạy được và artifact đã được con người duyệt. Slide không dùng tài liệu lý thuyết như bằng chứng sản phẩm."}
+{"kind":"slide","id":"sl/ofy9wn61","slide":3,"title":"Spec-Driven Development","textShapes":9}
+{"kind":"textbox","id":"sh/d0jax03i","slide":3,"name":"Text 0","text":"Spec-Driven Development","textPreview":"Spec-Driven Development","textChars":23,"textLines":1,"bbox":[482.99,83.04,728.19,49.41]}
+{"kind":"textbox","id":"sh/298ryl4v","slide":3,"name":"Text 1","text":"Spec là hợp đồng giữa ý định của con người và phần triển khai có thể kiểm chứng.","textPreview":"Spec là hợp đồng giữa ý định của con người và phần triển khai có thể kiểm chứng.","textChars":80,"textLines":1,"bbox":[482.99,145.04,792.19,22.73]}
+{"kind":"shape","id":"sh/3ah8rqlg","slide":3,"name":"Shape 2","bbox":[482.99,181.94,728.19,53.29]}
+{"kind":"textbox","id":"sh/pcjqtg36","slide":3,"name":"Text 3","text":"Một spec tốt đủ rõ để AI không phải đoán và đủ ngắn để con người review.","textPreview":"Một spec tốt đủ rõ để AI không phải đoán và đủ ngắn để con người review.","textChars":72,"textLines":1,"bbox":[534.37,197.22,724.99,22.73]}
+{"kind":"textbox","id":"sh/m5cra54z","slide":3,"name":"Text 4","text":"Chu trình 5 pha:","textPreview":"Chu trình 5 pha:","textChars":16,"textLines":1,"bbox":[482.99,249.4,792.19,22.73]}
+{"kind":"textbox","id":"sh/n2l4fq98","slide":3,"name":"Text 5","text":"Context","textPreview":"Context","textChars":7,"textLines":1,"bbox":[498.8,362.14,332.47,24.71]}
+{"kind":"textbox","id":"sh/943mhgre","slide":3,"name":"Text 6","text":"Spec","textPreview":"Spec","textChars":4,"textLines":1,"bbox":[862.9,362.14,332.47,24.71]}
+{"kind":"textbox","id":"sh/v6l4jq94","slide":3,"name":"Text 7","text":"Plan","textPreview":"Plan","textChars":4,"textLines":1,"bbox":[498.8,478.5,332.47,24.71]}
+{"kind":"textbox","id":"sh/x8nml0ra","slide":3,"name":"Text 8","text":"Tasks","textPreview":"Tasks","textChars":5,"textLines":1,"bbox":[862.9,478.5,332.47,24.71]}
+{"kind":"textbox","id":"sh/ja54na9g","slide":3,"name":"Text 9","text":"Implement","textPreview":"Implement","textChars":9,"textLines":1,"bbox":[498.8,594.86,332.47,24.71]}
+{"kind":"image","id":"im/tk36hgva","slide":3,"name":"Image 0","bbox":[69.45,172.84,374.29,374.3]}
+{"kind":"image","id":"im/p4bu58jm","slide":3,"name":"Image 1","bbox":[498.8,201.3,19.76,15.81]}
+{"kind":"image","id":"im/o32dw321","slide":3,"name":"Image 2","bbox":[482.99,286.29,364.1,63.25]}
+{"kind":"image","id":"im/n2tc3y1g","slide":3,"name":"Image 3","bbox":[847.08,286.29,364.1,63.25]}
+{"kind":"image","id":"im/21kvutkb","slide":3,"name":"Image 4","bbox":[482.99,402.66,364.1,63.25]}
+{"kind":"image","id":"im/10bu183q","slide":3,"name":"Image 5","bbox":[847.08,402.66,364.1,63.25]}
+{"kind":"image","id":"im/0z2ds325","slide":3,"name":"Image 6","bbox":[482.99,519.02,364.1,63.25]}
+{"kind":"notes","id":"nt/ofy9wn61","slide":3,"text":"Giải thích rằng mỗi pha trả lời một câu hỏi khác nhau. Context xác định vấn đề. Spec khóa hành vi. Plan và Tasks giới hạn cách sửa. Implement chỉ bắt đầu sau review phù hợp."}
+{"kind":"slide","id":"sl/jyx0ra1s","slide":4,"title":"8 thành phần của một Spec có thể kiểm chứng","textShapes":17}
+{"kind":"textbox","id":"sh/1cj2d8b6","slide":4,"name":"Text 0","text":"8 thành phần của một Spec có thể kiểm chứng","textPreview":"8 thành phần của một Spec có thể kiểm chứng","textChars":43,"textLines":1,"bbox":[69.45,58.54,1141.08,43.6]}
+{"kind":"shape","id":"sh/0ba143al","slide":4,"name":"Shape 1","bbox":[69.45,121.76,565.63,127.57]}
+{"kind":"shape","id":"sh/rm1k7yt4","slide":4,"name":"Shape 2","bbox":[84.06,136.38,41.85,41.85]}
+{"kind":"textbox","id":"sh/doj29oba","slide":4,"name":"Text 3","text":"Bối cảnh và mục tiêu","textPreview":"Bối cảnh và mục tiêu","textChars":20,"textLines":1,"bbox":[84.06,188.03,536.4,21.79]}
+{"kind":"textbox","id":"sh/sna103ap","slide":4,"name":"Text 4","text":"Tính năng giải quyết vấn đề nào?","textPreview":"Tính năng giải quyết vấn đề nào?","textChars":32,"textLines":1,"bbox":[84.06,215.71,536.4,19.01]}
+{"kind":"shape","id":"sh/3ihk3et8","slide":4,"name":"Shape 5","bbox":[644.88,121.76,565.64,127.57]}
+{"kind":"shape","id":"sh/ih8ju9sn","slide":4,"name":"Shape 6","bbox":[659.49,136.38,41.85,41.85]}
+{"kind":"textbox","id":"sh/5cva1cfq","slide":4,"name":"Text 7","text":"Tác nhân và quyền","textPreview":"Tác nhân và quyền","textChars":17,"textLines":1,"bbox":[659.49,188.03,536.41,21.79]}
+{"kind":"textbox","id":"sh/i94r6xgz","slide":4,"name":"Text 8","text":"Ai thao tác và được phép làm gì?","textPreview":"Ai thao tác và được phép làm gì?","textChars":32,"textLines":1,"bbox":[659.49,215.71,536.41,19.01]}
+{"kind":"shape","id":"sh/jadsz2xk","slide":4,"name":"Shape 9","bbox":[69.45,259.14,565.63,127.57]}
+{"kind":"shape","id":"sh/w72947yt","slide":4,"name":"Shape 10","bbox":[84.06,273.75,41.85,41.85]}
+{"kind":"textbox","id":"sh/a5kr2xg3","slide":4,"name":"Text 11","text":"Yêu cầu chức năng","textPreview":"Yêu cầu chức năng","textChars":17,"textLines":1,"bbox":[84.06,325.41,536.4,21.79]}
+{"kind":"textbox","id":"sh/v6tsv2xo","slide":4,"name":"Text 12","text":"Hệ thống phải làm gì?","textPreview":"Hệ thống phải làm gì?","textChars":21,"textLines":1,"bbox":[84.06,353.08,536.4,19.01]}
+{"kind":"shape","id":"sh/g36tgryd","slide":4,"name":"Shape 13","bbox":[644.88,259.14,565.64,127.57]}
+{"kind":"shape","id":"sh/h4fa9wfy","slide":4,"name":"Shape 14","bbox":[659.49,273.75,41.85,41.85]}
+{"kind":"textbox","id":"sh/oz29krqh","slide":4,"name":"Text 15","text":"Yêu cầu phi chức năng","textPreview":"Yêu cầu phi chức năng","textChars":21,"textLines":1,"bbox":[659.49,325.41,536.41,21.79]}
+{"kind":"textbox","id":"sh/3ytsrmpw","slide":4,"name":"Text 16","text":"Mức chất lượng cần đạt là gì?","textPreview":"Mức chất lượng cần đạt là gì?","textChars":29,"textLines":1,"bbox":[659.49,353.08,536.41,19.01]}
+{"kind":"shape","id":"sh/2xkrih8b","slide":4,"name":"Shape 17","bbox":[69.45,396.51,565.63,127.57]}
+{"kind":"shape","id":"sh/1wbapc7q","slide":4,"name":"Shape 18","bbox":[84.06,411.13,41.85,41.85]}
+{"kind":"textbox","id":"sh/fu9sn2p0","slide":4,"name":"Text 19","text":"Dữ liệu","textPreview":"Dữ liệu","textChars":7,"textLines":1,"bbox":[84.06,462.78,536.4,21.79]}
+{"kind":"textbox","id":"sh/et0reh8f","slide":4,"name":"Text 20","text":"Cấu trúc và vòng đời dữ liệu ra sao?","textPreview":"Cấu trúc và vòng đời dữ liệu ra sao?","textChars":36,"textLines":1,"bbox":[84.06,490.46,536.4,19.01]}
+{"kind":"shape","id":"sh/tsrqlc7u","slide":4,"name":"Shape 21","bbox":[644.88,396.51,565.64,127.57]}
+{"kind":"shape","id":"sh/sri9s7q9","slide":4,"name":"Shape 22","bbox":[659.49,411.13,41.85,41.85]}
+{"kind":"textbox","id":"sh/jm5gze1g","slide":4,"name":"Text 23","text":"Xử lý lỗi","textPreview":"Xử lý lỗi","textChars":9,"textLines":1,"bbox":[659.49,462.78,536.41,21.79]}
+{"kind":"textbox","id":"sh/knex8j21","slide":4,"name":"Text 24","text":"Lỗi nào có thể xảy ra và phản hồi thế nào?","textPreview":"Lỗi nào có thể xảy ra và phản hồi thế nào?","textChars":42,"textLines":1,"bbox":[659.49,490.46,536.41,19.01]}
+{"kind":"shape","id":"sh/5ony1oj6","slide":4,"name":"Shape 25","bbox":[69.45,533.89,565.63,127.57]}
+{"kind":"shape","id":"sh/axcf29kj","slide":4,"name":"Shape 26","bbox":[84.06,548.5,41.85,41.85]}
+{"kind":"textbox","id":"sh/wzex4z2p","slide":4,"name":"Text 27","text":"Tiêu chí chấp nhận","textPreview":"Tiêu chí chấp nhận","textChars":18,"textLines":1,"bbox":[84.06,600.16,536.4,21.79]}
+{"kind":"textbox","id":"sh/xknyx4ja","slide":4,"name":"Text 28","text":"Bằng chứng nào chứng minh đã hoàn thành?","textPreview":"Bằng chứng nào chứng minh đã hoàn thành?","textChars":40,"textLines":1,"bbox":[84.06,627.83,536.4,19.01]}
+{"kind":"shape","id":"sh/mtcfypkn","slide":4,"name":"Shape 29","bbox":[644.88,533.89,565.64,127.57]}
+{"kind":"shape","id":"sh/nulw7u18","slide":4,"name":"Shape 30","bbox":[659.49,548.5,41.85,41.85]}
+{"kind":"textbox","id":"sh/elwba54j","slide":4,"name":"Text 31","text":"Ngoài phạm vi","textPreview":"Ngoài phạm vi","textChars":13,"textLines":1,"bbox":[659.49,600.16,536.41,21.79]}
+{"kind":"textbox","id":"sh/18nu50nu","slide":4,"name":"Text 32","text":"Điều gì chưa làm trong phiên bản này?","textPreview":"Điều gì chưa làm trong phiên bản này?","textChars":37,"textLines":1,"bbox":[659.49,627.83,536.41,19.01]}
+{"kind":"image","id":"im/zqtwj65o","slide":4,"name":"Image 0","bbox":[95.57,147.89,18.83,18.83]}
+{"kind":"image","id":"im/cnid8b6x","slide":4,"name":"Image 1","bbox":[671,147.89,18.83,18.83]}
+{"kind":"image","id":"im/dorehgni","slide":4,"name":"Image 2","bbox":[95.57,285.26,18.83,18.83]}
+{"kind":"image","id":"im/ql0v61or","slide":4,"name":"Image 3","bbox":[671,285.26,18.83,18.83]}
+{"kind":"image","id":"im/bm9wf65c","slide":4,"name":"Image 4","bbox":[95.57,422.64,18.83,18.83]}
+{"kind":"image","id":"im/ojid4r6l","slide":4,"name":"Image 5","bbox":[671,422.64,18.83,18.83]}
+{"kind":"image","id":"im/pkredwn6","slide":4,"name":"Image 6","bbox":[95.57,560.01,18.83,18.83]}
+{"kind":"image","id":"im/7upwnm98","slide":4,"name":"Image 7","bbox":[671,560.01,18.83,18.83]}
+{"kind":"notes","id":"nt/jyx0ra1s","slide":4,"text":"Liên hệ với FuGrade: actors phải tách guest editor và authenticated editor. Compatibility của .fg và ownership của snapshot phải xuất hiện rõ trong Spec."}
+{"kind":"slide","id":"sl/i107q5of","slide":5,"title":"EARS cho ranh giới lưu snapshot","textShapes":14}
+{"kind":"textbox","id":"sh/dgbulwnm","slide":5,"name":"Text 0","text":"EARS cho ranh giới lưu snapshot","textPreview":"EARS cho ranh giới lưu snapshot","textChars":31,"textLines":1,"bbox":[69.45,139.32,546.33,124.02]}
+{"kind":"textbox","id":"sh/cf2tcr61","slide":5,"name":"Text 1","text":"Requirement mô tả đúng thời điểm hệ thống yêu cầu đăng nhập.","textPreview":"Requirement mô tả đúng thời điểm hệ thống yêu cầu đăng nhập.","textChars":60,"textLines":1,"bbox":[69.45,283.19,546.33,63.5]}
+{"kind":"textbox","id":"sh/z2tcnm5s","slide":5,"name":"Text 2","text":"Ví dụ từ FuGrade Web:","textPreview":"Ví dụ từ FuGrade Web:","textChars":21,"textLines":1,"bbox":[694.62,161.65,516.57,31]}
+{"kind":"textbox","id":"sh/yhkbe1o7","slide":5,"name":"Text 3","text":"GIVEN người dùng đang chỉnh sửa file .fg ở chế độ khách\nWHEN người dùng bấm Lưu\nTHEN hệ thống giữ workspace trong sessionStorage và chuyển đến /login","textPreview":"GIVEN người dùng đang chỉnh sửa file .fg ở chế độ khách | WHEN người dùng bấm Lưu | THEN hệ thống giữ workspace trong sessionStorage và c...","textChars":149,"textLines":3,"bbox":[694.62,212.49,516.57,162.71]}
+{"kind":"shape","id":"sh/l4bupwny","slide":5,"name":"Shape 4","bbox":[664.86,141.8,2.67,251.25]}
+{"kind":"textbox","id":"sh/032tgr6d","slide":5,"name":"Text 5","text":"Đăng nhập chỉ cần khi lưu snapshot.","textPreview":"Đăng nhập chỉ cần khi lưu snapshot.","textChars":35,"textLines":1,"bbox":[664.86,415.38,610.33,31.75]}
+{"kind":"shape","id":"sh/n6dcr65o","slide":5,"name":"Shape 6","bbox":[69.45,487.3,44.64,44.65]}
+{"kind":"textbox","id":"sh/m5kbi1oj","slide":5,"name":"Text 7","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[76.89,491.02,29.76,37.21]}
+{"kind":"textbox","id":"sh/w32dkbuh","slide":5,"name":"Text 8","text":"GIVEN [context]","textPreview":"GIVEN [context]","textChars":15,"textLines":1,"bbox":[133.93,494.11,299.34,31]}
+{"kind":"textbox","id":"sh/x4vedgvm","slide":5,"name":"Text 9","text":"Trạng thái ban đầu của hệ thống.","textPreview":"Trạng thái ban đầu của hệ thống.","textChars":32,"textLines":1,"bbox":[133.93,537.02,299.34,31.75]}
+{"kind":"shape","id":"sh/ahkvi1cb","slide":5,"name":"Shape 10","bbox":[458.07,487.3,44.64,44.65]}
+{"kind":"textbox","id":"sh/v2twb6dw","slide":5,"name":"Text 11","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[465.51,491.02,29.76,37.21]}
+{"kind":"textbox","id":"sh/k7mxovud","slide":5,"name":"Text 12","text":"WHEN [event]","textPreview":"WHEN [event]","textChars":12,"textLines":1,"bbox":[522.56,494.11,299.34,31]}
+{"kind":"textbox","id":"sh/58vehgvy","slide":5,"name":"Text 13","text":"Hành động hoặc sự kiện xảy ra.","textPreview":"Hành động hoặc sự kiện xảy ra.","textChars":30,"textLines":1,"bbox":[522.56,537.02,299.34,31.75]}
+{"kind":"shape","id":"sh/i54fmlc7","slide":5,"name":"Shape 14","bbox":[846.7,487.3,44.64,44.65]}
+{"kind":"textbox","id":"sh/j6dwfqds","slide":5,"name":"Text 15","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[854.14,491.02,29.76,37.21]}
+{"kind":"textbox","id":"sh/sb6xsvu9","slide":5,"name":"Text 16","text":"THEN [outcome]","textPreview":"THEN [outcome]","textChars":14,"textLines":1,"bbox":[911.19,494.11,299.34,31]}
+{"kind":"textbox","id":"sh/tcfel0vu","slide":5,"name":"Text 17","text":"Kết quả chính xác, đo lường được.","textPreview":"Kết quả chính xác, đo lường được.","textChars":33,"textLines":1,"bbox":[911.19,537.02,299.34,63.5]}
+{"kind":"notes","id":"nt/i107q5of","slide":5,"text":"Đối chiếu trực tiếp app/page.tsx: saveSnapshot giữ workspace trong sessionStorage khi API trả 401, sau đó chuyển người dùng đến trang đăng nhập."}
+{"kind":"slide","id":"sl/x8f69ofe","slide":6,"title":"PHẦN 2","textShapes":3}
+{"kind":"shape","id":"sh/yhg7epsj","slide":6,"name":"Shape 0","bbox":[0,0,479.99,720]}
+{"kind":"shape","id":"sh/87ipkzal","slide":6,"name":"Shape 1","bbox":[549.43,232.31,79.8,30.15]}
+{"kind":"textbox","id":"sh/98rqt4r6","slide":6,"name":"Text 2","text":"PHẦN 2","textPreview":"PHẦN 2","textChars":6,"textLines":1,"bbox":[561.34,238.26,119.99,18.25]}
+{"kind":"textbox","id":"sh/ml07i9sv","slide":6,"name":"Text 3","text":"FuGrade Web: hiện trạng sản phẩm","textPreview":"FuGrade Web: hiện trạng sản phẩm","textChars":32,"textLines":1,"bbox":[549.43,270.4,661.09,124.02]}
+{"kind":"textbox","id":"sh/7m98ru9g","slide":6,"name":"Text 4","text":"Kết luận dựa trên source, runtime và ảnh chụp giao diện chạy trên localhost.","textPreview":"Kết luận dựa trên source, runtime và ảnh chụp giao diện chạy trên localhost.","textChars":76,"textLines":1,"bbox":[549.43,424.18,661.09,63.5]}
+{"kind":"image","id":"im/lwn2dc3m","slide":6,"name":"Image 0","bbox":[9.92,53.22,460.14,613.55]}
+{"kind":"notes","id":"nt/x8f69ofe","slide":6,"text":"Chuyển từ phần khái niệm sang case study. Từ slide sau, mọi claim đều gắn với source hoặc ảnh chụp sản phẩm."}
+{"kind":"slide","id":"sl/gnmp4jqx","slide":7,"title":"EVIDENCE","textShapes":5}
+{"kind":"shape","id":"sh/dcbud0ra","slide":7,"name":"Shape 0","bbox":[486.43,118.09,125.63,30.15]}
+{"kind":"textbox","id":"sh/ydkbm5sv","slide":7,"name":"Text 1","text":"EVIDENCE","textPreview":"EVIDENCE","textChars":8,"textLines":1,"bbox":[498.33,124.04,165.82,18.25]}
+{"kind":"textbox","id":"sh/zedcfa9g","slide":7,"name":"Text 2","text":"Hiện trạng được xác minh","textPreview":"Hiện trạng được xác minh","textChars":24,"textLines":1,"bbox":[486.43,156.18,724.75,124.02]}
+{"kind":"textbox","id":"sh/l0vuh0rm","slide":7,"name":"Text 3","text":"Node.js 22.22.3, Next.js 16.3.2.","textPreview":"Node.js 22.22.3, Next.js 16.3.2.","textChars":32,"textLines":1,"bbox":[550.91,302.52,285.48,62]}
+{"kind":"shape","id":"sh/eh0ba1sr","slide":7,"name":"Text 4","bbox":[550.91,384.36,285.48,63.5]}
+{"kind":"textbox","id":"sh/baxkjqlk","slide":7,"name":"Text 5","text":"Guest: mở, chỉnh, import và xuất .fg.","textPreview":"Guest: mở, chỉnh, import và xuất .fg.","textChars":37,"textLines":1,"bbox":[550.95,410.92,285.49,62]}
+{"kind":"textbox","id":"sh/cbq1sv25","slide":7,"name":"Text 7","text":"Lưu: giữ workspace rồi chuyển sang /login.","textPreview":"Lưu: giữ workspace rồi chuyển sang /login.","textChars":42,"textLines":1,"bbox":[550.91,519.3,660.26,31]}
+{"kind":"image","id":"im/k36xo3i5","slide":7,"name":"Image 0","bbox":[69.45,176.04,367.9,367.91]}
+{"kind":"image","id":"im/lozex8zq","slide":7,"name":"Image 1","bbox":[493.86,303.14,29.76,29.76]}
+{"kind":"image","id":"im/y1ofmd0z","slide":7,"name":"Image 2","bbox":[493.83,419.14,29.76,29.76]}
+{"kind":"image","id":"im/j2xwvyhk","slide":7,"name":"Image 3","bbox":[493.86,519.92,29.76,29.76]}
+{"kind":"notes","id":"nt/gnmp4jqx","slide":7,"text":"Phân biệt bằng chứng runtime với bằng chứng nghiệp vụ. Ảnh và source xác nhận luồng guest. Lint và build là kiểm tra kỹ thuật, không tự chứng minh toàn bộ nghiệp vụ đúng."}
+{"kind":"slide","id":"sl/fu1gfa1s","slide":8,"title":"Phạm vi sản phẩm đã xác minh","textShapes":10}
+{"kind":"textbox","id":"sh/elkf2pg7","slide":8,"text":"Phạm vi sản phẩm đã xác minh","textPreview":"Phạm vi sản phẩm đã xác minh","textChars":28,"textLines":1,"bbox":[70,48,1140,58]}
+{"kind":"textbox","id":"sh/18byd4zy","slide":8,"text":"Deck chỉ demo hành vi có trong source và giao diện đang chạy","textPreview":"Deck chỉ demo hành vi có trong source và giao diện đang chạy","textChars":60,"textLines":1,"bbox":[70,108,1110,38]}
+{"kind":"shape","id":"sh/g72x4zyd","slide":8,"bbox":[70,147,72,4]}
+{"kind":"textbox","id":"sh/ri9g7uhw","slide":8,"text":"ĐÃ TRIỂN KHAI","textPreview":"ĐÃ TRIỂN KHAI","textChars":13,"textLines":1,"bbox":[90,190,420,24]}
+{"kind":"textbox","id":"sh/6h0fypgb","slide":8,"text":"Workspace bảng điểm","textPreview":"Workspace bảng điểm","textChars":19,"textLines":1,"bbox":[90,222,470,42]}
+{"kind":"textbox","id":"sh/tkby9kzm","slide":8,"text":"Mở file .fg có hoặc không có mật khẩu\nChỉnh điểm, nhận xét, sinh viên và thành phần trong phiên\nImport điểm hoặc nhận xét theo MSSV với preview validation\nXuất .fg có mật khẩu và lưu snapshot sau khi đăng nhập","textPreview":"Mở file .fg có hoặc không có mật khẩu | Chỉnh điểm, nhận xét, sinh viên và thành phần trong phiên | Import điểm hoặc nhận xét theo MSSV v...","textChars":209,"textLines":4,"bbox":[90,275,470,270]}
+{"kind":"shape","id":"sh/sjix0zy1","slide":8,"bbox":[620,190,2,380]}
+{"kind":"textbox","id":"sh/je9g3ahk","slide":8,"text":"CHƯA TRIỂN KHAI","textPreview":"CHƯA TRIỂN KHAI","textChars":15,"textLines":1,"bbox":[680,190,420,24]}
+{"kind":"textbox","id":"sh/id0fu50z","slide":8,"text":"Các hạng mục đang chờ quyết định","textPreview":"Các hạng mục đang chờ quyết định","textChars":32,"textLines":1,"bbox":[680,222,500,42]}
+{"kind":"textbox","id":"sh/o7ydoret","slide":8,"text":"Quy đổi điểm bonus: Spec vẫn PENDING HUMAN REVIEW\nDatabase production và chiến lược multi-instance chưa được chọn\nProject chưa có automated test command\nOwnership cho API snapshot cần được đặc tả và sửa trước production","textPreview":"Quy đổi điểm bonus: Spec vẫn PENDING HUMAN REVIEW | Database production và chiến lược multi-instance chưa được chọn | Project chưa có aut...","textChars":219,"textLines":4,"bbox":[680,275,500,270]}
+{"kind":"textbox","id":"sh/98rehwve","slide":8,"text":"Khi thuyết trình, bonus là hướng phát triển đã đặc tả, không phải tính năng hiện có.","textPreview":"Khi thuyết trình, bonus là hướng phát triển đã đặc tả, không phải tính năng hiện có.","textChars":84,"textLines":1,"bbox":[90,590,1090,48]}
+{"kind":"textbox","id":"sh/m5gvmhwn","slide":8,"text":"FUGRADE  /  SDD  /  08","textPreview":"FUGRADE  /  SDD  /  08","textChars":22,"textLines":1,"bbox":[1020,682,190,18]}
+{"kind":"notes","id":"nt/fu1gfa1s","slide":8,"text":"Đây là slide quan trọng nhất để giữ claim chính xác. Context bonus đã được duyệt, nhưng Spec và Architecture Profile vẫn pending nên không demo bonus như tính năng hoàn thành."}
+{"kind":"slide","id":"sl/udsvah03","slide":9,"title":"Điểm vào của guest workspace","textShapes":7}
+{"kind":"textbox","id":"sh/eponml43","slide":9,"text":"Điểm vào của guest workspace","textPreview":"Điểm vào của guest workspace","textChars":28,"textLines":1,"bbox":[70,48,1140,58]}
+{"kind":"textbox","id":"sh/1cfmhgne","slide":9,"text":"Người dùng có thể bắt đầu mà chưa cần tạo tài khoản","textPreview":"Người dùng có thể bắt đầu mà chưa cần tạo tài khoản","textChars":51,"textLines":1,"bbox":[70,108,1110,38]}
+{"kind":"shape","id":"sh/0b65obm9","slide":9,"bbox":[70,147,72,4]}
+{"kind":"shape","id":"sh/nex4jq5k","slide":9,"bbox":[62,174,760,448]}
+{"kind":"textbox","id":"sh/9gzml0nq","slide":9,"text":"GIÁ TRỊ SẢN PHẨM","textPreview":"GIÁ TRỊ SẢN PHẨM","textChars":16,"textLines":1,"bbox":[870,205,300,24]}
+{"kind":"textbox","id":"sh/ofq5svm5","slide":9,"text":"Bắt đầu nhanh","textPreview":"Bắt đầu nhanh","textChars":13,"textLines":1,"bbox":[870,240,320,44]}
+{"kind":"textbox","id":"sh/bih4na5w","slide":9,"text":"Mở và chỉnh sửa bảng điểm ngay trong trình duyệt. Đăng nhập chỉ xuất hiện khi người dùng muốn lưu snapshot vào SQLite.","textPreview":"Mở và chỉnh sửa bảng điểm ngay trong trình duyệt. Đăng nhập chỉ xuất hiện khi người dùng muốn lưu snapshot vào SQLite.","textChars":118,"textLines":1,"bbox":[870,300,320,148]}
+{"kind":"textbox","id":"sh/ah8nu54b","slide":9,"text":"Ảnh chụp từ localhost, dữ liệu demo tổng hợp","textPreview":"Ảnh chụp từ localhost, dữ liệu demo tổng hợp","textChars":44,"textLines":1,"bbox":[870,542,320,30]}
+{"kind":"textbox","id":"sh/oza1gfyh","slide":9,"text":"FUGRADE  /  SDD  /  09","textPreview":"FUGRADE  /  SDD  /  09","textChars":22,"textLines":1,"bbox":[1020,682,190,18]}
+{"kind":"image","id":"im/3qxkz2do","slide":9,"name":"","geometry":"roundRect","alt":"Trang chủ FuGrade Web ở chế độ khách","bbox":[74,186,736,424]}
+{"kind":"notes","id":"nt/udsvah03","slide":9,"text":"Mở demo bằng trang này. Nêu rõ guest mode là quyết định sản phẩm hiện tại, không phải lỗi thiếu authentication. Nút Lưu là ranh giới chuyển sang authenticated flow."}
+{"kind":"slide","id":"sl/m90b6t0r","slide":10,"title":"Mở file .fg có mật khẩu","textShapes":6}
+{"kind":"textbox","id":"sh/q9sn69kb","slide":10,"text":"Mở file .fg có mật khẩu","textPreview":"Mở file .fg có mật khẩu","textChars":23,"textLines":1,"bbox":[70,48,1140,58]}
+{"kind":"textbox","id":"sh/xc3mho32","slide":10,"text":"Ứng dụng chỉ yêu cầu mật khẩu sau khi phát hiện payload được bảo vệ","textPreview":"Ứng dụng chỉ yêu cầu mật khẩu sau khi phát hiện payload được bảo vệ","textChars":67,"textLines":1,"bbox":[70,108,1110,38]}
+{"kind":"shape","id":"sh/cbu58j2h","slide":10,"bbox":[70,147,72,4]}
+{"kind":"shape","id":"sh/zelojyl8","slide":10,"bbox":[62,174,790,450]}
+{"kind":"textbox","id":"sh/l036l83y","slide":10,"text":"HÀNH VI ĐÃ CHẠY","textPreview":"HÀNH VI ĐÃ CHẠY","textChars":15,"textLines":1,"bbox":[890,210,300,24]}
+{"kind":"textbox","id":"sh/kzu5c32t","slide":10,"text":"Giới hạn kích thước file ở 10 MB\nPhân biệt thiếu mật khẩu và mật khẩu không đúng\nTrả dữ liệu đã parse về guest workspace sau khi xác minh","textPreview":"Giới hạn kích thước file ở 10 MB | Phân biệt thiếu mật khẩu và mật khẩu không đúng | Trả dữ liệu đã parse về guest workspace sau khi xác ...","textChars":137,"textLines":3,"bbox":[890,252,300,240]}
+{"kind":"textbox","id":"sh/725onyl4","slide":10,"text":"Compatibility giữ AES-256-CBC và MD5 theo định dạng legacy.","textPreview":"Compatibility giữ AES-256-CBC và MD5 theo định dạng legacy.","textChars":59,"textLines":1,"bbox":[890,525,300,74]}
+{"kind":"textbox","id":"sh/m1cnetkj","slide":10,"text":"FUGRADE  /  SDD  /  10","textPreview":"FUGRADE  /  SDD  /  10","textChars":22,"textLines":1,"bbox":[1020,682,190,18]}
+{"kind":"image","id":"im/7yps7al8","slide":10,"name":"","geometry":"roundRect","alt":"Hộp thoại yêu cầu mật khẩu khi mở file .fg","bbox":[74,186,766,426]}
+{"kind":"notes","id":"nt/m90b6t0r","slide":10,"text":"Nhấn mạnh mục tiêu compatibility với FuGrade desktop. Cơ chế legacy chỉ phục vụ trao đổi file, không thay thế authentication hiện đại."}
+{"kind":"slide","id":"sl/jetc3ut0","slide":11,"title":"Workspace chỉnh sửa bảng điểm","textShapes":8}
+{"kind":"textbox","id":"sh/a90z21on","slide":11,"text":"Workspace chỉnh sửa bảng điểm","textPreview":"Workspace chỉnh sửa bảng điểm","textChars":29,"textLines":1,"bbox":[70,48,1140,58]}
+{"kind":"textbox","id":"sh/xcryxg7y","slide":11,"text":"Một màn hình tập trung cho metadata, cột điểm, tìm kiếm và thao tác nhanh","textPreview":"Một màn hình tập trung cho metadata, cột điểm, tìm kiếm và thao tác nhanh","textChars":73,"textLines":1,"bbox":[70,108,1110,38]}
+{"kind":"shape","id":"sh/wbih4b6d","slide":11,"bbox":[70,147,72,4]}
+{"kind":"shape","id":"sh/n69grmpw","slide":11,"bbox":[58,166,880,476]}
+{"kind":"textbox","id":"sh/98rytw72","slide":11,"text":"WORKSPACE TRONG PHIÊN","textPreview":"WORKSPACE TRONG PHIÊN","textChars":21,"textLines":1,"bbox":[975,205,240,24]}
+{"kind":"textbox","id":"sh/o7ih0r6h","slide":11,"text":"Chỉnh trực tiếp","textPreview":"Chỉnh trực tiếp","textChars":15,"textLines":1,"bbox":[975,248,240,34]}
+{"kind":"textbox","id":"sh/72t03qp0","slide":11,"text":"Nhấp đúp ô điểm hoặc nhận xét để sửa. Enter lưu giá trị, Esc hủy thao tác.","textPreview":"Nhấp đúp ô điểm hoặc nhận xét để sửa. Enter lưu giá trị, Esc hủy thao tác.","textChars":74,"textLines":1,"bbox":[975,292,240,112]}
+{"kind":"textbox","id":"sh/61kzalof","slide":11,"text":"Giữ trạng thái cục bộ","textPreview":"Giữ trạng thái cục bộ","textChars":21,"textLines":1,"bbox":[975,445,240,34]}
+{"kind":"textbox","id":"sh/ofqtgnyt","slide":11,"text":"Workspace nằm trong sessionStorage của tab cho tới khi người dùng chọn Lưu.","textPreview":"Workspace nằm trong sessionStorage của tab cho tới khi người dùng chọn Lưu.","textChars":75,"textLines":1,"bbox":[975,489,240,104]}
+{"kind":"textbox","id":"sh/9gza9sze","slide":11,"text":"FUGRADE  /  SDD  /  11","textPreview":"FUGRADE  /  SDD  /  11","textChars":22,"textLines":1,"bbox":[1020,682,190,18]}
+{"kind":"image","id":"im/fylg76hc","slide":11,"name":"","geometry":"roundRect","alt":"Workspace bảng điểm FuGrade Web với dữ liệu demo","bbox":[70,178,856,452]}
+{"kind":"notes","id":"nt/jetc3ut0","slide":11,"text":"Demo nhanh ba thao tác: lọc sinh viên, chọn cột hiển thị và nhấp đúp một ô điểm. Dữ liệu trên slide là dữ liệu tổng hợp, không lấy từ database người dùng."}
+{"kind":"slide","id":"sl/8f2psfyx","slide":12,"title":"Import hàng loạt có preview validation","textShapes":6}
+{"kind":"textbox","id":"sh/edk3ed4j","slide":12,"text":"Import hàng loạt có preview validation","textPreview":"Import hàng loạt có preview validation","textChars":38,"textLines":1,"bbox":[70,48,1140,58]}
+{"kind":"textbox","id":"sh/1gbm9s3a","slide":12,"text":"Dòng hợp lệ và dòng lỗi được tách trước khi áp dụng vào workspace","textPreview":"Dòng hợp lệ và dòng lỗi được tách trước khi áp dụng vào workspace","textChars":65,"textLines":1,"bbox":[70,108,1110,38]}
+{"kind":"shape","id":"sh/0f2lgnmp","slide":12,"bbox":[70,147,72,4]}
+{"kind":"shape","id":"sh/ra943il8","slide":12,"bbox":[62,174,800,450]}
+{"kind":"textbox","id":"sh/dcbm583y","slide":12,"text":"ĐIỂM NỔI BẬT","textPreview":"ĐIỂM NỔI BẬT","textChars":12,"textLines":1,"bbox":[900,205,270,24]}
+{"kind":"textbox","id":"sh/sb2lcnmd","slide":12,"text":"Dán dữ liệu trực tiếp từ Excel\nKhớp sinh viên theo MSSV\nTừ chối điểm ngoài khoảng 0 đến 10\nChỉ áp dụng các dòng hợp lệ","textPreview":"Dán dữ liệu trực tiếp từ Excel | Khớp sinh viên theo MSSV | Từ chối điểm ngoài khoảng 0 đến 10 | Chỉ áp dụng các dòng hợp lệ","textChars":118,"textLines":4,"bbox":[900,248,280,260]}
+{"kind":"textbox","id":"sh/b6d4f2lc","slide":12,"text":"Preview giúp người thuyết trình cho thấy validation trước mutation.","textPreview":"Preview giúp người thuyết trình cho thấy validation trước mutation.","textChars":67,"textLines":1,"bbox":[900,540,280,68]}
+{"kind":"textbox","id":"sh/a543mx4r","slide":12,"text":"FUGRADE  /  SDD  /  12","textPreview":"FUGRADE  /  SDD  /  12","textChars":22,"textLines":1,"bbox":[1020,682,190,18]}
+{"kind":"image","id":"im/721szuh0","slide":12,"name":"","geometry":"roundRect","alt":"Preview import điểm với hai dòng hợp lệ và hai dòng lỗi","bbox":[74,186,776,426]}
+{"kind":"notes","id":"nt/8f2psfyx","slide":12,"text":"Trong demo, dán bốn dòng như ảnh. Hai dòng hợp lệ, một MSSV không tồn tại và một điểm vượt 10. Không cần bấm Áp dụng nếu chỉ muốn minh họa validation."}
+{"kind":"slide","id":"sl/hgzapcr6","slide":13,"title":"Xuất .fg tương thích FuGrade desktop","textShapes":8}
+{"kind":"textbox","id":"sh/dsr6t8bu","slide":13,"text":"Xuất .fg tương thích FuGrade desktop","textPreview":"Xuất .fg tương thích FuGrade desktop","textChars":36,"textLines":1,"bbox":[70,48,1140,58]}
+{"kind":"textbox","id":"sh/q50nydsj","slide":13,"text":"Người dùng đặt mật khẩu mới trước khi tải file","textPreview":"Người dùng đặt mật khẩu mới trước khi tải file","textChars":46,"textLines":1,"bbox":[70,108,1110,38]}
+{"kind":"shape","id":"sh/bq9orito","slide":13,"bbox":[70,147,72,4]}
+{"kind":"shape","id":"sh/o3i5w3ad","slide":13,"bbox":[62,174,800,450]}
+{"kind":"textbox","id":"sh/21gnuts7","slide":13,"text":"RANH GIỚI KỸ THUẬT","textPreview":"RANH GIỚI KỸ THUẬT","textChars":18,"textLines":1,"bbox":[900,205,280,24]}
+{"kind":"textbox","id":"sh/32ponyts","slide":13,"text":"Tên file được chuẩn hóa","textPreview":"Tên file được chuẩn hóa","textChars":23,"textLines":1,"bbox":[900,246,280,32]}
+{"kind":"textbox","id":"sh/gzy5s3a1","slide":13,"text":"Server tạo payload mã hóa và trả về file tải xuống với Cache-Control no-store.","textPreview":"Server tạo payload mã hóa và trả về file tải xuống với Cache-Control no-store.","textChars":78,"textLines":1,"bbox":[900,286,280,92]}
+{"kind":"textbox","id":"sh/1076lobm","slide":13,"text":"Mật khẩu và xác nhận phải khớp","textPreview":"Mật khẩu và xác nhận phải khớp","textChars":30,"textLines":1,"bbox":[900,420,280,58]}
+{"kind":"textbox","id":"sh/hcfy9k3u","slide":13,"text":"UI không cho xuất khi trường mật khẩu trống hoặc hai giá trị khác nhau.","textPreview":"UI không cho xuất khi trường mật khẩu trống hoặc hai giá trị khác nhau.","textChars":71,"textLines":1,"bbox":[900,490,280,90]}
+{"kind":"textbox","id":"sh/gb6x0zm9","slide":13,"text":"FUGRADE  /  SDD  /  13","textPreview":"FUGRADE  /  SDD  /  13","textChars":22,"textLines":1,"bbox":[1020,682,190,18]}
+{"kind":"image","id":"im/cbm54fqd","slide":13,"name":"","geometry":"roundRect","alt":"Hộp thoại xuất file .fg có mật khẩu","bbox":[74,186,776,426]}
+{"kind":"notes","id":"nt/hgzapcr6","slide":13,"text":"Không nhập mật khẩu thật trong buổi thuyết trình. Dùng dữ liệu demo. Nói rõ mã hóa legacy phục vụ compatibility chứ không phải mô hình bảo mật cho dữ liệu lưu trữ hiện đại."}
+{"kind":"slide","id":"sl/6lsnupw7","slide":14,"title":"Đăng nhập tại thời điểm lưu snapshot","textShapes":6}
+{"kind":"textbox","id":"sh/a9gvid8v","slide":14,"text":"Đăng nhập tại thời điểm lưu snapshot","textPreview":"Đăng nhập tại thời điểm lưu snapshot","textChars":36,"textLines":1,"bbox":[70,48,1140,58]}
+{"kind":"textbox","id":"sh/xc7eds76","slide":14,"text":"Credentials, Google và CAPTCHA cùng tồn tại trong Auth.js flow hiện tại","textPreview":"Credentials, Google và CAPTCHA cùng tồn tại trong Auth.js flow hiện tại","textChars":71,"textLines":1,"bbox":[70,108,1110,38]}
+{"kind":"shape","id":"sh/wbydknq1","slide":14,"bbox":[70,147,72,4]}
+{"kind":"shape","id":"sh/jepwf2pc","slide":14,"bbox":[62,174,800,450]}
+{"kind":"textbox","id":"sh/5grehs7i","slide":14,"text":"LUỒNG LƯU","textPreview":"LUỒNG LƯU","textChars":9,"textLines":1,"bbox":[900,205,270,24]}
+{"kind":"textbox","id":"sh/kfidonqx","slide":14,"text":"CAPTCHA gồm 5 ký tự được xác minh ở server\nCredentials dùng bcrypt\nGoogle OAuth chỉ bật khi có cấu hình\nWorkspace guest được giữ trước khi chuyển trang","textPreview":"CAPTCHA gồm 5 ký tự được xác minh ở server | Credentials dùng bcrypt | Google OAuth chỉ bật khi có cấu hình | Workspace guest được giữ tr...","textChars":151,"textLines":4,"bbox":[900,248,285,265]}
+{"kind":"textbox","id":"sh/zi5c3y98","slide":14,"text":"Không cần đăng nhập để mở, chỉnh hoặc xuất .fg.","textPreview":"Không cần đăng nhập để mở, chỉnh hoặc xuất .fg.","textChars":47,"textLines":1,"bbox":[900,548,280,62]}
+{"kind":"textbox","id":"sh/ehwvat8n","slide":14,"text":"FUGRADE  /  SDD  /  14","textPreview":"FUGRADE  /  SDD  /  14","textChars":22,"textLines":1,"bbox":[1020,682,190,18]}
+{"kind":"image","id":"im/j65k72x8","slide":14,"name":"","geometry":"roundRect","alt":"Trang đăng nhập FuGrade Web với CAPTCHA và Google","bbox":[74,186,776,426]}
+{"kind":"notes","id":"nt/6lsnupw7","slide":14,"text":"Không giải CAPTCHA trong phần trình bày. Chỉ giới thiệu ranh giới: guest cho thao tác cục bộ, authenticated editor cho snapshot persistence."}
+{"kind":"slide","id":"sl/vaxsvy10","slide":15,"title":"Chu trình phát triển áp dụng cho FuGrade","textShapes":9}
+{"kind":"textbox","id":"sh/ihw3mlkv","slide":15,"text":"Chu trình phát triển áp dụng cho FuGrade","textPreview":"Chu trình phát triển áp dụng cho FuGrade","textChars":40,"textLines":1,"bbox":[70,48,1140,58]}
+{"kind":"textbox","id":"sh/547mhg3m","slide":15,"text":"Artifact và review gate ngăn thay đổi nghiệp vụ vượt ngoài phạm vi đã duyệt","textPreview":"Artifact và review gate ngăn thay đổi nghiệp vụ vượt ngoài phạm vi đã duyệt","textChars":75,"textLines":1,"bbox":[70,108,1110,38]}
+{"kind":"shape","id":"sh/k3y5ov21","slide":15,"bbox":[70,147,72,4]}
+{"kind":"textbox","id":"sh/76p4jqls","slide":15,"text":"ARTIFACT","textPreview":"ARTIFACT","textChars":8,"textLines":1,"bbox":[90,194,440,24]}
+{"kind":"textbox","id":"sh/65gnqlk7","slide":15,"text":"Context\nSpec\nPlan\nTasks","textPreview":"Context | Spec | Plan | Tasks","textChars":23,"textLines":4,"bbox":[90,235,430,245]}
+{"kind":"textbox","id":"sh/t87ml0ji","slide":15,"text":"Mỗi artifact ghi evidence, rủi ro, quyết định còn thiếu và Human Final Review.","textPreview":"Mỗi artifact ghi evidence, rủi ro, quyết định còn thiếu và Human Final Review.","textChars":78,"textLines":1,"bbox":[90,495,450,78]}
+{"kind":"shape","id":"sh/s7y5sv2x","slide":15,"bbox":[610,190,2,395]}
+{"kind":"textbox","id":"sh/na5476l8","slide":15,"text":"KIỂM CHỨNG","textPreview":"KIỂM CHỨNG","textChars":10,"textLines":1,"bbox":[680,194,460,24]}
+{"kind":"textbox","id":"sh/m9c3e1kn","slide":15,"text":"npm.cmd run lint\nnpm.cmd run build","textPreview":"npm.cmd run lint | npm.cmd run build","textChars":34,"textLines":2,"bbox":[680,235,480,125]}
+{"kind":"textbox","id":"sh/wrm9kvep","slide":15,"text":"Project chưa có automated test command\nThay đổi .fg cần fixture desktop và web\nThay đổi auth cần kiểm tra unauthorized và ownership\nBuild pass không thay thế acceptance review","textPreview":"Project chưa có automated test command | Thay đổi .fg cần fixture desktop và web | Thay đổi auth cần kiểm tra unauthorized và ownership |...","textChars":175,"textLines":4,"bbox":[680,380,480,215]}
+{"kind":"textbox","id":"sh/hsvat0fa","slide":15,"text":"FUGRADE  /  SDD  /  15","textPreview":"FUGRADE  /  SDD  /  15","textChars":22,"textLines":1,"bbox":[1020,682,190,18]}
+{"kind":"notes","id":"nt/vaxsvy10","slide":15,"text":"Nêu rõ lint và build là baseline đã có evidence. Với feature mới, Definition of Done còn cần checklist nghiệp vụ, compatibility và authorization tương ứng."}
+{"kind":"slide","id":"sl/gny5sjyp","slide":16,"title":"Rủi ro kỹ thuật còn lại","textShapes":15}
+{"kind":"textbox","id":"sh/7ytgz6pg","slide":16,"text":"Rủi ro kỹ thuật còn lại","textPreview":"Rủi ro kỹ thuật còn lại","textChars":23,"textLines":1,"bbox":[70,48,1140,58]}
+{"kind":"textbox","id":"sh/8z2h8bq1","slide":16,"text":"Các giới hạn này ảnh hưởng trực tiếp tới kế hoạch production","textPreview":"Các giới hạn này ảnh hưởng trực tiếp tới kế hoạch production","textChars":60,"textLines":1,"bbox":[70,108,1110,38]}
+{"kind":"shape","id":"sh/9kby1g7m","slide":16,"bbox":[70,147,72,4]}
+{"kind":"textbox","id":"sh/ytkf2h8j","slide":16,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[85,190,60,34]}
+{"kind":"textbox","id":"sh/zutgvm94","slide":16,"text":"Ownership API snapshot","textPreview":"Ownership API snapshot","textChars":22,"textLines":1,"bbox":[155,186,330,42]}
+{"kind":"textbox","id":"sh/kv2h4rqp","slide":16,"text":"GET, DELETE và một số mutation mới kiểm tra session, chưa lọc dữ liệu theo userId.","textPreview":"GET, DELETE và một số mutation mới kiểm tra session, chưa lọc dữ liệu theo userId.","textChars":82,"textLines":1,"bbox":[505,188,680,66]}
+{"kind":"shape","id":"sh/lwbyxwra","slide":16,"bbox":[85,265,1100,1]}
+{"kind":"textbox","id":"sh/ip4zel83","slide":16,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[85,295,60,34]}
+{"kind":"textbox","id":"sh/3qdg7qpo","slide":16,"text":"Persistence production","textPreview":"Persistence production","textChars":22,"textLines":1,"bbox":[155,291,330,42]}
+{"kind":"textbox","id":"sh/fm1gzq5o","slide":16,"text":"SQLite cục bộ chưa phù hợp với deployment serverless hoặc nhiều instance.","textPreview":"SQLite cục bộ chưa phù hợp với deployment serverless hoặc nhiều instance.","textChars":73,"textLines":1,"bbox":[505,293,680,66]}
+{"kind":"shape","id":"sh/e1sf65o3","slide":16,"bbox":[85,370,1100,1]}
+{"kind":"textbox","id":"sh/1ojy10ne","slide":16,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[85,400,60,34]}
+{"kind":"textbox","id":"sh/gnax8v6t","slide":16,"text":"Automated tests","textPreview":"Automated tests","textChars":15,"textLines":1,"bbox":[155,396,330,42]}
+{"kind":"textbox","id":"sh/nqlg3a5k","slide":16,"text":"package.json chưa có test script nên chưa thể tuyên bố coverage hoặc regression suite.","textPreview":"package.json chưa có test script nên chưa thể tuyên bố coverage hoặc regression suite.","textChars":86,"textLines":1,"bbox":[505,398,680,66]}
+{"kind":"shape","id":"sh/2pcfa5oz","slide":16,"bbox":[85,475,1100,1]}
+{"kind":"textbox","id":"sh/ps3y5knq","slide":16,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[85,505,60,34]}
+{"kind":"textbox","id":"sh/oruhcf65","slide":16,"text":"Bonus grade conversion","textPreview":"Bonus grade conversion","textChars":22,"textLines":1,"bbox":[155,501,330,42]}
+{"kind":"textbox","id":"sh/bulg7u5g","slide":16,"text":"Context đã APPROVED nhưng Spec và Architecture Profile vẫn chờ Human Final Review.","textPreview":"Context đã APPROVED nhưng Spec và Architecture Profile vẫn chờ Human Final Review.","textChars":82,"textLines":1,"bbox":[505,503,680,66]}
+{"kind":"textbox","id":"sh/atczepob","slide":16,"text":"FUGRADE  /  SDD  /  16","textPreview":"FUGRADE  /  SDD  /  16","textChars":22,"textLines":1,"bbox":[1020,682,190,18]}
+{"kind":"notes","id":"nt/gny5sjyp","slide":16,"text":"Không biến các rủi ro này thành claim đã sửa. Đây là backlog cần Spec và review riêng. Ưu tiên ownership trước production vì liên quan dữ liệu giữa người dùng."}
+{"kind":"slide","id":"sl/14bup87q","slide":17,"title":"Kịch bản demo 5 phút","textShapes":19}
+{"kind":"textbox","id":"sh/e9wvu54r","slide":17,"text":"Kịch bản demo 5 phút","textPreview":"Kịch bản demo 5 phút","textChars":20,"textLines":1,"bbox":[70,48,1140,58]}
+{"kind":"textbox","id":"sh/1c7e50ni","slide":17,"text":"Một luồng ngắn đủ cho người xem hiểu giá trị sản phẩm và cách SDD giữ claim chính xác","textPreview":"Một luồng ngắn đủ cho người xem hiểu giá trị sản phẩm và cách SDD giữ claim chính xác","textChars":85,"textLines":1,"bbox":[70,108,1110,38]}
+{"kind":"shape","id":"sh/gbedwfmx","slide":17,"bbox":[70,147,72,4]}
+{"kind":"textbox","id":"sh/rm5czq50","slide":17,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[95,178,64,38]}
+{"kind":"textbox","id":"sh/6lwvql4v","slide":17,"text":"Bắt đầu ở guest workspace","textPreview":"Bắt đầu ở guest workspace","textChars":25,"textLines":1,"bbox":[190,176,350,40]}
+{"kind":"textbox","id":"sh/t8ne10n6","slide":17,"text":"Giới thiệu mục tiêu và mở file demo có mật khẩu.","textPreview":"Giới thiệu mục tiêu và mở file demo có mật khẩu.","textChars":48,"textLines":1,"bbox":[560,177,620,48]}
+{"kind":"textbox","id":"sh/snedsvml","slide":17,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[95,264,64,38]}
+{"kind":"textbox","id":"sh/jilcvq54","slide":17,"text":"Chỉnh bảng điểm","textPreview":"Chỉnh bảng điểm","textChars":15,"textLines":1,"bbox":[190,262,350,40]}
+{"kind":"textbox","id":"sh/ihcvml4j","slide":17,"text":"Tìm sinh viên, chọn cột và sửa một ô bằng nhấp đúp.","textPreview":"Tìm sinh viên, chọn cột và sửa một ô bằng nhấp đúp.","textChars":51,"textLines":1,"bbox":[560,263,620,48]}
+{"kind":"textbox","id":"sh/4by9or6l","slide":17,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[95,350,64,38]}
+{"kind":"textbox","id":"sh/pc7qhwn6","slide":17,"text":"Preview import","textPreview":"Preview import","textChars":14,"textLines":1,"bbox":[190,348,350,40]}
+{"kind":"textbox","id":"sh/29grm1of","slide":17,"text":"Dán dữ liệu có cả dòng hợp lệ và lỗi, chưa cần áp dụng.","textPreview":"Dán dữ liệu có cả dòng hợp lệ và lỗi, chưa cần áp dụng.","textChars":55,"textLines":1,"bbox":[560,349,620,48]}
+{"kind":"textbox","id":"sh/3ap8fm50","slide":17,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[95,436,64,38]}
+{"kind":"textbox","id":"sh/gnepkr69","slide":17,"text":"Xuất .fg","textPreview":"Xuất .fg","textChars":8,"textLines":1,"bbox":[190,434,350,40]}
+{"kind":"textbox","id":"sh/honqdwnu","slide":17,"text":"Mở hộp thoại mật khẩu và nêu compatibility với desktop.","textPreview":"Mở hộp thoại mật khẩu và nêu compatibility với desktop.","textChars":55,"textLines":1,"bbox":[560,435,620,48]}
+{"kind":"textbox","id":"sh/ulw7ihoj","slide":17,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[95,522,64,38]}
+{"kind":"textbox","id":"sh/fm58bm54","slide":17,"text":"Lưu snapshot","textPreview":"Lưu snapshot","textChars":12,"textLines":1,"bbox":[190,520,350,40]}
+{"kind":"textbox","id":"sh/0ji9wb6t","slide":17,"text":"Bấm Lưu để chỉ ra gate đăng nhập và CAPTCHA.","textPreview":"Bấm Lưu để chỉ ra gate đăng nhập và CAPTCHA.","textChars":44,"textLines":1,"bbox":[560,521,620,48]}
+{"kind":"textbox","id":"sh/14rqpgne","slide":17,"text":"Kết thúc bằng ranh giới: bonus là feature đã đặc tả, chưa phải demo sản phẩm.","textPreview":"Kết thúc bằng ranh giới: bonus là feature đã đặc tả, chưa phải demo sản phẩm.","textChars":77,"textLines":1,"bbox":[95,625,1040,36]}
+{"kind":"textbox","id":"sh/90nq9gfi","slide":17,"text":"FUGRADE  /  SDD  /  17","textPreview":"FUGRADE  /  SDD  /  17","textChars":22,"textLines":1,"bbox":[1020,682,190,18]}
+{"kind":"notes","id":"nt/14bup87q","slide":17,"text":"Nếu thời gian ít, bỏ bước chỉnh ô và giữ bốn mốc: mở file, workspace, import, lưu. Không giải CAPTCHA hoặc lưu dữ liệu thật trong buổi demo."}

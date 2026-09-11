@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "presentation-finalization.v1",
+  "finalSha256": "6c2df2b60ce30579ecf38efaa5d81a78ac46c320271f9a1bf6f0ed196f00471e",
+  "byteCount": 9304291,
+  "packageIntegrity": {
+    "chart_count": 0,
+    "claim_boundary": "Structural package checks only; no slide text, notes, formulas, chart values, or native PowerPoint execution were inspected.",
+    "finding_count": 0,
+    "findings": [],
+    "notes_parts_skipped": 17,
+    "relationship_part_count": 40,
+    "slide_count": 17,
+    "status": "pass",
+    "exitCode": 0,
+    "findingCount": 0,
+    "warnings": []
+  },
+  "presentationLayout": {
+    "finding_count": 0,
+    "findings": [],
+    "font_policy": {
+      "checked_text_script_count": 174,
+      "native_font_rendering_verified": false,
+      "observed_font_families": [
+        "Consolas",
+        "Raleway",
+        "Roboto",
+        "Roboto Bold"
+      ],
+      "observed_font_use_counts": {
+        "Consolas": 2,
+        "Raleway": 61,
+        "Roboto": 106,
+        "Roboto Bold": 5
+      },
+      "passed": true,
+      "performed": true
+    },
+    "slide_count": 17,
+    "slide_size_in": [
+      13.3326,
+      7.5
+    ],
+    "warning_count": 0,
+    "warnings": [],
+    "exitCode": 0,
+    "findingCount": 0,
+    "fontPolicy": {
+      "checked_text_script_count": 174,
+      "native_font_rendering_verified": false,
+      "observed_font_families": [
+        "Consolas",
+        "Raleway",
+        "Roboto",
+        "Roboto Bold"
+      ],
+      "observed_font_use_counts": {
+        "Consolas": 2,
+        "Raleway": 61,
+        "Roboto": 106,
+        "Roboto Bold": 5
+      },
+      "passed": true,
+      "performed": true
+    }
+  },
+  "fontSelection": {
+    "basis": "reference",
+    "approvedFamilies": [
+      "Raleway",
+      "Roboto",
+      "Roboto Bold",
+      "Consolas"
+    ],
+    "scriptFonts": {},
+    "referenceSha256": "779679623fc2be81375cdbce675f3d80a60b4e309f29460efe8a8e79c3bdf3c2",
+    "referenceFontsVerifiedInEncodedText": true,
+    "checked_text_script_count": 174,
+    "native_font_rendering_verified": false,
+    "observed_font_families": [
+      "Consolas",
+      "Raleway",
+      "Roboto",
+      "Roboto Bold"
+    ],
+    "observed_font_use_counts": {
+      "Consolas": 2,
+      "Raleway": 61,
+      "Roboto": 106,
+      "Roboto Bold": 5
+    },
+    "passed": true,
+    "performed": true
+  },
+  "firstPartyImport": {
+    "performed": true,
+    "passed": true,
+    "slideCount": 17,
+    "sha256": "6c2df2b60ce30579ecf38efaa5d81a78ac46c320271f9a1bf6f0ed196f00471e",
+    "runtimeNodeModules": "C:\\Users\\Admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules",
+    "nodeExecutable": "C:\\Users\\Admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe"
+  },
+  "nativeTableArithmetic": {
+    "performed": true,
+    "checked_column_count": 0,
+    "checks": [],
+    "claim_boundary": "Displayed-value arithmetic with rounding tolerance; not source-data verification.",
+    "eligible_table_count": 0,
+    "finding_count": 0,
+    "findings": [],
+    "native_table_count": 0,
+    "passed": true,
+    "schema_version": "presentation-native-table-arithmetic.v1",
+    "skipped_tables": [],
+    "slide_count": 17,
+    "warning_count": 0,
+    "warnings": []
+  },
+  "nativeChartTitles": {
+    "performed": true,
+    "checks": [],
+    "finding_count": 0,
+    "findings": [],
+    "native_chart_count": 0,
+    "native_powerpoint_verified": false,
+    "passed": true,
+    "presentation_sha256": "6c2df2b60ce30579ecf38efaa5d81a78ac46c320271f9a1bf6f0ed196f00471e",
+    "schema_version": "presentation-native-chart-titles.v1",
+    "slide_count": 17,
+    "source_text_emitted": false,
+    "unresolved_linked_title_count": 0
+  },
+  "sourceDerivedPolicyFlags": [
+    "--expected-slide-size-emu",
+    "12191365,6858000",
+    "--validate-bullet-geometry",
+    "--validate-heading-fit",
+    "--cover-role",
+    "none",
+    "--expected-slide-count",
+    "17",
+    "--approved-font-family",
+    "Raleway",
+    "--approved-font-family",
+    "Roboto",
+    "--approved-font-family",
+    "Roboto Bold",
+    "--approved-font-family",
+    "Consolas"
+  ],
+  "nativeChartValidation": {
+    "detectedOwnerSlides": [],
+    "detectedChartCount": 0,
+    "targetApplication": "portable",
+    "sourceChartOwnersExplicitlyDeclared": true,
+    "validatorRan": false,
+    "passed": true
+  }
+}

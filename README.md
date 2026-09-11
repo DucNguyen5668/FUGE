@@ -60,6 +60,12 @@ npm run start
 
 Database được lưu tại `fugrade.db` trong thư mục project. Các file SQLite cục bộ đã được loại khỏi Git.
 
+## Chu trình phát triển
+
+Mọi thay đổi không tầm thường phải được phân loại và thực hiện theo [Chu trình phát triển chuẩn của FuGrade Web](./docs/fugrade-development-lifecycle.md). Tài liệu này quy định artifact Context/Spec/Plan/Tasks, checkpoint review, kiểm chứng riêng cho `.fg`, authentication, Excel import, persistence và Definition of Done.
+
+Thư mục `SDDADD-main/` được giữ làm nguồn template tham khảo; tài liệu trong `docs/`, `.sdd/`, `AGENTS.md` và `CONSTITUTION.md` của FuGrade mới là chuẩn vận hành của repository.
+
 ## Cách dùng workspace
 
 - Trang Home, mở file `.fg`, sửa điểm/nhận xét, thêm sinh viên/thành phần, import dữ liệu và xuất file đều dùng được khi chưa đăng nhập.

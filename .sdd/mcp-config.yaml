@@ -1,0 +1,35 @@
+version: "0.1"
+status: "PENDING HUMAN REVIEW"
+
+agents:
+  lead-architect:
+    write_paths: [".sdd/", "docs/", "CLAUDE.md"]
+    read_paths: ["app/", "components/", "lib/", "FuGrade/", "package.json", "next.config.ts"]
+  web-interface:
+    write_paths: ["app/", "proxy.ts"]
+    denied: ["database:production_write", "git:push"]
+  ui-workspace:
+    write_paths: ["components/", "app/globals.css"]
+    denied: ["database:write", "git:push"]
+  persistence-auth:
+    write_paths: ["lib/", "app/api/"]
+    denied: ["database:drop", "database:delete_no_where", "git:push"]
+  compatibility:
+    write_paths: ["lib/fg-decrypt.ts", "lib/fg-types.ts"]
+    read_paths: ["FuGrade/"]
+    denied: ["write:FuGrade", "git:push"]
+  verifier:
+    write_paths: ["tests/"]
+    read_paths: ["app/", "components/", "lib/"]
+    denied: ["write:source", "database:write", "git:push"]
+
+global_denied:
+  - "filesystem:read_secrets"
+  - "git:push_force"
+  - "database:destructive_without_review"
+  - "external:state_change_without_user_authority"
+
+tool_borrowing:
+  process: "request_via_lead"
+  duration: "single_task"
+  human_required_for_global_denied: true

@@ -1,0 +1,12 @@
+﻿import { pathToFileURL } from 'node:url';
+const PPTX_PATH = 'C:\\\\Users\\\\Admin\\\\AppData\\\\Roaming\\\\fugrade-pptx-build\\\\node_modules\\\\pptxgenjs\\\\dist\\\\pptxgen.cjs.js';
+const mod = await import(pathToFileURL(PPTX_PATH).href);
+const PptxGenJS = mod.default || mod;
+const pptx = new PptxGenJS();
+pptx.layout = 'LAYOUT_WIDE';
+const s = pptx.addSlide();
+const vn = 'B\u1ea3ng \u0111i\u1ec3m sinh vi\u00ean';
+console.log('Input:', vn);
+s.addText(vn, {x:1,y:1,w:10,h:1,fontSize:24,color:'17233B'});
+await pptx.writeFile({fileName:'C:\\\\Users\\\\Admin\\\\Downloads\\\\FUge\\\\web\\\\output\\\\test-vn.pptx'});
+console.log('Written OK');
