@@ -4,7 +4,7 @@
 **Version:** 1.0.0  
 **Status:** DRAFT  
 **Context:** `CONTEXT.md` APPROVED bởi NguyenND lúc `2026-08-25T14:29:00+07:00`  
-**Architecture Profile:** FuGrade v0.1.0 — PENDING HUMAN REVIEW
+**Architecture Profile:** FuGrade v0.1.0 — APPROVED for this feature scope at `2026-09-11T22:43:00+07:00`
 
 ## 1. Purpose
 
@@ -238,7 +238,6 @@ Trước delivery phải có evidence:
 
 ## 11. Planning blockers
 
-- Architecture Profile v0.1.0 vẫn `PENDING HUMAN REVIEW`.
 - Automated test framework chưa được chọn.
 - Cần Human xác nhận chấp nhận rủi ro Q3=B: sau khi mở lại dữ liệu materialized, hệ thống không thể biết target đã từng được cộng bonus; cấu hình rule mới dùng target hiện tại làm base mới.
 - `PLAN.md` phải xác định cách giữ ephemeral base/rule trong workspace mà không thay `.fg` và database schema.
@@ -255,7 +254,7 @@ Trước delivery phải có evidence:
 - Scope: SPEC v1.0.0 cho `bonus-grade-conversion`, REQ-001 đến REQ-013.
 - Recommendation: Duyệt và lock Spec nếu công thức half-up một chữ số, null-row skip, idempotency trong phiên và rủi ro materialized-only đã đúng ý Product Owner.
 - Evidence: CONTEXT đã APPROVED; behavior hiện tại trong `lib/fg-types.ts`, `lib/fg-decrypt.ts`, `app/page.tsx`, `DraftGradeTable.tsx`, `WorkspaceDialogs.tsx` và save route.
-- Risks and assumptions: Rule không tồn tại sau reopen; tạo rule mới có thể dùng effective grade cũ làm base mới; chưa có automated test runner; Architecture Profile chưa approved nên chưa được lập Plan/code.
+- Risks and assumptions: Rule không tồn tại sau reopen; tạo rule mới có thể dùng effective grade cũ làm base mới; chưa có automated test runner; chưa được lập Plan/code cho tới khi Spec được Human Final Review.
 - Alternatives considered: Persist rule trong `.fg` hoặc snapshot web để chống double-add xuyên phiên; không chọn vì Context Q3=B và vì hai hướng đó cần compatibility fixture hoặc database migration.
 - Required human decision: Approve/revise REQ-001–REQ-013, đặc biệt rounding, null behavior, materialization và rủi ro reconfigure sau reopen.
 

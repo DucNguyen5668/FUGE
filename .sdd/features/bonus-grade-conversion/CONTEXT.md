@@ -3,9 +3,9 @@
 **Feature slug:** `bonus-grade-conversion`  
 **Phase:** 0 — Context Discovery  
 **Version:** 0.1.0  
-**Status:** PENDING HUMAN REVIEW  
+**Status:** APPROVED
 **Created:** 2026-08-25  
-**Architecture Profile:** FuGrade v0.1.0 — PENDING HUMAN REVIEW
+**Architecture Profile:** FuGrade v0.1.0 — APPROVED for this feature scope at `2026-09-11T22:43:00+07:00`
 
 ## 1. Problem statement
 
@@ -160,7 +160,7 @@ Các assumption trên chưa phải business rule cho tới khi Context được 
 - Scope: Context cho `bonus-grade-conversion`
 - Recommendation: Duyệt mục tiêu feature; chọn Q1=A (cap 10), Q2=A (derived/recalculable), Q4=A; với Q3 nên ưu tiên C nếu cần giữ `.fg` không đổi, hoặc A chỉ sau khi có fixture desktop-web chứng minh compatibility. Q5 đề xuất lưu/tính tối đa 2 chữ số thập phân và hiển thị bỏ số 0 dư.
 - Evidence: `lib/fg-types.ts`, `lib/fg-decrypt.ts`, `app/page.tsx`, `components/workspace/DraftGradeTable.tsx`, `components/workspace/WorkspaceDialogs.tsx`, `app/api/fg/save/route.ts`, `lib/db/schema.ts`.
-- Risks and assumptions: Architecture Profile chưa approved; chưa có automated test runner; `.fg` chưa có bonus metadata; persistence đầy đủ có thể cần migration.
+- Risks and assumptions: Chưa có automated test runner; `.fg` chưa có bonus metadata; persistence đầy đủ có thể cần migration.
 - Alternatives considered: Lưu metadata bonus mở rộng trong `.fg` hoặc chỉ lưu rule trong snapshot web; chưa chọn vì tăng rủi ro tương thích legacy hoặc cần database migration.
 - Required human decision: Chọn Q1–Q5, xác nhận decision maker và duyệt/revise Context trước khi tạo `SPEC.md`.
 
@@ -171,3 +171,7 @@ Các assumption trên chưa phải business rule cho tới khi Context được 
 - Reviewer: NguyenND
 - Reviewed at: 2026-08-25T14:29:00+07:00
 - Follow-up: Tạo `SPEC.md` cho `bonus-grade-conversion` và yêu cầu Human Final Review trước khi lập Plan.
+
+## Administrative changelog
+
+- 2026-09-12: Đồng bộ header với Human Final Review của Context và Architecture Profile approval; không thay đổi quyết định Q1–Q5 hoặc phạm vi đã duyệt.

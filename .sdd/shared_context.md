@@ -1,7 +1,7 @@
 # FuGrade shared context và ownership
 
 # Version: 0.1.0
-# Last-Updated: 2026-08-24
+# Last-Updated: 2026-09-12
 # Status: PENDING HUMAN REVIEW
 
 ## 1. Ownership boundaries đề xuất
@@ -27,7 +27,7 @@ Không chạy parallel nếu hai role cần sửa cùng file. Lead giữ shared-
 
 ## 3. Active blockers
 
-- Architecture Profile chưa được Human Final Review.
+- Architecture Profile v0.1.0 đã được Human Final Review cho phạm vi `bonus-grade-conversion`; feature khác cần reviewer xác nhận binding áp dụng trước technical execution.
 - Chưa có automated test command.
 - Production persistence chưa chọn.
 - Snapshot ownership enforcement cần được đặc tả và sửa trước multi-user production.
